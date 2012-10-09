@@ -1,6 +1,7 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+#permalink: /:categories/:year/:month/:day/:title 
+permalink: /:year/:month/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
@@ -14,8 +15,8 @@ markdown: rdiscount
 title : Apneng
 tagline: Site Tagline
 author :
-  name : zjd
-  email : zjd@gmx.com
+  name : apneng
+  email : apneng[AT]yeah.net
   github : JidZhang
   twitter : username
   feedburner : feedname
