@@ -3,7 +3,7 @@ layout: post
 title: "急速破解sublime text全部版本"
 description: ""
 category: 
-tags: [editor, sublime_text, crack]
+tags: [编辑器, sublime_text, crack]
 ---
 {% include JB/setup %}
 
