@@ -3,7 +3,7 @@ layout: post
 title: "[转]威海银滩海景房泡沫调查"
 description: ""
 category: 
-tags: [房子,房地产泡沫]
+tags: [房子, 房地产泡沫]
 ---
 {% include JB/setup %}
 
