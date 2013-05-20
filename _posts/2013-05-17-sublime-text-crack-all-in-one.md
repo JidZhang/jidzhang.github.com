@@ -9,23 +9,12 @@ tags: [编辑器, sublime_text, crack]
 
 ##摘要
 本篇文章介绍一种非常直接、快速地破解[Sublime Text](http://www.sublimetext.com)编辑器的方法，并且这里的方式适用于Sublime Text2/3(以下为了方便简称为ST2,ST3)的所有版本和几乎所有平台（Win32,Win64,Linux32,Linux64,除了MacOS）。下面是破解后的效果图：
-    
-	Sublime Text 2
-		Registered to
-	unlimited User License
-	
-	Copyright(c)2006-2012 Sublime HQ Pty Ltd
-	Version 2.0.1, Build 2217
+
+![ST2-Cracked]({{ site.img_url }}/st2-cracked.png)
 
 --
-	
-	Sublime Text
-		Registered to
-	unlimited User License
-	
-	Copyright(c)2006-2013 Sublime HQ Pty Ltd
-	Stable Channel, Build 3019
 
+![ST3-Cracked]({{ site.img_url }}/st3-cracked.png)
 ##准备工具
 1. 十六进制编辑器，推荐WinHex，或其他可以进行十六进制搜索的任意编辑器，比如Vim,Sublime Text, UltraEditor等。
 2. 可以用正则表达式进行文本搜索的编辑器，比如Vim,Sublime Text等。
@@ -74,23 +63,24 @@ tags: [编辑器, sublime_text, crack]
 因为找到的这段函数是验证序列号的最重要的函数（这个规律是我在调试的时候发现的，对ST2，ST3都适用。），这个函数用于判断注册码是否正确，返回值是一个布尔值，**只要改了这个函数的返回值，ST就被完美爆破了**。
 ###<4>着手修改上面的函数的返回值
 上面已经找到了关键函数段，往下找，一直找到函数返回: **C3    retn**，
-然后往上数两行，看到**mov eax, ecx**，就是它了，记下它的二进制串：
+然后往上数两行，看到**mov al, bl**，就是它了，记下它的二进制串(**一定以自己搜出来的字符串为准**)：
 
-	E9 D0811E00 8BC1 5DC3
+	8B4C2478 8AC3 5B
 把它修改了就可以了。
 
-在这里我们的目的是修改为xor eax, eax(sublime_text-2)或mov al, 0x1(sublime_text_3)。
+在这里我们的目的是修改为mov al, 0x1(sublime_text-2)或xor eax, eax(sublime_text_3)。
 
-	xor eax, eax的二进制是33C0
 	mov al, 0x1 的二进制是B001
+	xor eax, eax的二进制是33C0
+	
 
 ###<5>修改可执行程序（用WinHex或其他十六进制编辑器）
 找到第4步的**mov eax, ecx**非常关键，如果没有找到请重新阅读步骤1-4.
 
 用WinHex打开sublime_text.exe，然后搜索十六进制串：
 
-	E9 D0811E00 8BC1 5DC3（以你自己找到的字串为准，因为不同的版本会不一样）
-把8BC1改为33C0(ST2)或B001(ST3)，保存文件。
+	8B4C2478 8AC3 5B（以你自己找到的字串为准，因为不同的版本会不一样）
+把8BC3改为B001(ST2)或33C0(ST3)，保存文件。
 
 运行sublime text，看看是不是被完美破解了！！
 
