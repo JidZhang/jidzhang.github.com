@@ -10,11 +10,18 @@ tags: [编辑器, sublime_text, crack]
 ##摘要
 本篇文章介绍一种非常直接、快速地破解[Sublime Text](http://www.sublimetext.com)编辑器的方法，并且这里的方式适用于Sublime Text2/3(以下为了方便简称为ST2,ST3)的所有版本和几乎所有平台（Win32,Win64,Linux32,Linux64,除了MacOS）。下面是破解后的效果图：
 
-![ST2-Cracked]({{ site.img_url }}/st2-cracked.png)
+ST2217-Windows
 
---
+![ST2-Cracked](https://dl.dropboxusercontent.com/u/6893139/images/2013-05-20-st2217-cracked.png)
 
-![ST3-Cracked]({{ site.img_url }}/st3-cracked.png)
+ST3008-Windows
+
+![ST3-Cracked](https://dl.dropboxusercontent.com/u/6893139/images/2013-05-20-st3008-cracked.png)
+
+ST3033-Linux
+
+![ST3033-Linux-Cracked](https://dl.dropboxusercontent.com/u/6893139/images/2013-05-21-st-3033-cracked.png)
+
 ##准备工具
 1. 十六进制编辑器，推荐WinHex，或其他可以进行十六进制搜索的任意编辑器，比如Vim,Sublime Text, UltraEditor等。
 2. 可以用正则表达式进行文本搜索的编辑器，比如Vim,Sublime Text等。
