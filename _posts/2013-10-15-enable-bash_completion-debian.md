@@ -10,7 +10,7 @@ tags: [bash, Debian]
 真心喜欢Debian系统，系统非常稳定而且各方面的技术材料也丰富。但是还是有些配置需要自己搞定。下面是一个tips：<br/>
 **完善bash的自动补全功能，即bash_completion** <br/>
 （1）为什么做？<br/>
-    因为默认的自动补全功能不完整，甚至是没有 
+    因为默认的自动补全功能不完整，甚至是没有。 
 <br/>
 （2）怎么做？下面是具体的步骤：
 
@@ -21,13 +21,13 @@ tags: [bash, Debian]
 
 * 修改bashrc，如果你能获得root权限，那么你可以直接改`/etc/bash.bashrc`，把
 
-	` #if ! shopt -oq posix; then
+	 #if ! shopt -oq posix; then
 	 #   if [ -f /usr/share/bash-completion/bash_completion ]; then
 	 #      . /usr/share/bash-completion/bash_completion
 	 #   elif [ -f /etc/bash_completion ]; then
 	 #      . /etc/bash_completion
 	 #   fi
-	 # fi`
+	 # fi
 
 	每一行前面的#去掉，然后保存重新登录一下系统即可。<br/>
 	如果不能获得root权限，那就把上面的一段文字复制到`~/.bashrc`。
