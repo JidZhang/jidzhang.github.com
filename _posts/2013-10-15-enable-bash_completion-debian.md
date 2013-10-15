@@ -15,9 +15,9 @@ tags: [bash, Debian]
 （2）怎么做？下面是具体的步骤：
 
 * 安装bash_completion包：<br/>
-        apt-get install bash_completion
-<br/>
-  如果已安装可跳过。
+    apt-get install bash_completion
+
+    如果已安装可跳过。
 
 * 修改bashrc，如果你能获得root权限，那么你可以直接改`/etc/bash.bashrc`，把
 
