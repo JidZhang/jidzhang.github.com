@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Modify sublime_text Theme"
+title: "修改sublime_text主题(Solarized)"
 description: ""
 category: 
 tags: [sublime_text]
@@ -10,7 +10,7 @@ tags: [sublime_text]
 最近发现Solarized主题很耐看，尤其是Dark主题喜欢得不行。所以把常用的工具的主题都设置成了Solarized(Dark)样式。
 
 但是，sublime_text自带的Solarized(Dark)有一点让人不满意：
-	选中文本的颜色太浅，几乎分辨不出来。
+**选中文本的颜色太浅，几乎分辨不出来。**
 所以决定修改一下sublime_text的Solarized(Dark)主题。
 
 修改方法：
