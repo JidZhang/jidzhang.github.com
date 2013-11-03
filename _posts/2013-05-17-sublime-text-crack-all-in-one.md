@@ -29,6 +29,7 @@ ST3033-Linux
 
 ##破解过程
 下面的方法是通用的，适用于Windows或Linux上的所有Sublime Text，在方法上仅仅是开始的时候有点区别。下面分别针对Windows系统和Linux系统做详细说明：
+
 ###<0>下载并安装sublime_text
 自己到官网上下载[Sublime Text 2](http://www.sublimetext.com/2) 或 [Sublime Text 3](http://www.sublimetext.com/3), 然后安装。
 安装后把可执行程序备份一遍。比如把sublime_text.exe复制一份为sublime_text.orig.exe。

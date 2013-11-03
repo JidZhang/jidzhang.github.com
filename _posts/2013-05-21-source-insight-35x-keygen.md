@@ -19,6 +19,9 @@ tags: [SI, source insight, crack]
 
 	/*
 	* By Apneng.Net @2013.05.21
+    * 声明：以下程序仅仅用于测试二进制可执行文件，
+    * 并且仅仅用于同行间交流学习。
+    * 请勿用于商业目的。
 	*/
 	#include <stdio.h>
 	#include <stdlib.h>

@@ -9,7 +9,7 @@ tags: [Cpp, vector, STL, new]
 
 [原理分析]
 	
-在用IDA反汇编C++程序的时候，经常会看到这样的语句：“call eh vector constructor iterator”或“eh vector destructor iterator”。
+在用IDA反汇编C++程序的时候，经常会看到这样的语句：`“call eh vector constructor iterator”`或`“eh vector destructor iterator”`。
 
 第一反应：这是在调用某个std::vector<T>对象的构造函数或析构函数。但进一步的阅读发现跟std::vector<T>的实现对不上号，就是说程序中并没有声明std::vector对象。
 >
@@ -20,7 +20,7 @@ tags: [Cpp, vector, STL, new]
 
 说到这里估计有人就会恍然大悟了。道理就是这么简单!
 
-“eh vector constructor/destructor iterator”按字面上理解，就是：数组-构造-迭代器或数组-析构-迭代器。
+`“eh vector constructor/destructor iterator”`按字面上理解，就是：数组-构造-迭代器或数组-析构-迭代器。
 它发生在创建一个自定义类的数组时，C++在分配内存后自动迭代调用类的构造函数以初始化每一个数组元素，或析构。
 
 但，这里有一个问题：new的时候知道数组的大小，但是delete的时候没有指定数组个数，那么C++是怎么知道对多少个对象调用析构函数，并且释放多大内存呢？
