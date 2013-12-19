@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sublime Text 3059 (Windows 32/64) Cracker"
+title: "Sublime Text Build 3059 winx32/64 破解"
 description: ""
 category: ""
 tags: []
