@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sublime Text Build 3059 winx32/64 破解"
+title: "Sublime Text 3 Build 3059 winx32/64 破解"
 description: ""
 category: ""
 tags: []
