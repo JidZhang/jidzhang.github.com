@@ -15,8 +15,8 @@ Sublime Text在这个时候放出了最新Beta版，尤其是增加了很多的�
 
 * [sublime text 3059 Windows x32](http://yun.baidu.com/share/link?shareid=3772766860&uk=2986591212)
 * [sublime text 3059 Windows x64](http://yun.baidu.com/share/link?shareid=3780798375&uk=2986591212)
-* [sublime text 3059 Linux x32](http://yun.baidu.com/share/link?shareid=581818016&uk=2986591212)
-* [sublime text 3059 Linux x64](http://yun.baidu.com/share/link?shareid=584282963&uk=2986591212)
+* [sublime text 3059 Linux x32](http://yun.baidu.com/share/link?shareid=3756674317&uk=2986591212)
+* [sublime text 3059 Linux x64](http://yun.baidu.com/share/link?shareid=3762073257&uk=2986591212)
 * [sublime text 3059 MacOS](http://yun.baidu.com/share/link?shareid=1789397571&uk=2986591212)
 
 *使用方法*：本程序不是完整的程序，仅仅是sublime_text.exe, 所以要先到官网上下载程序并安装，然后把我的程序复制过去即可。    
