@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sublime Text 3 Build 3059 winx32/64 破解"
+title: "Sublime Text 3 Build 3059 Windows/Linux/32/64/MacOS 破解"
 description: ""
 category: ""
 tags: []
@@ -13,9 +13,11 @@ Sublime Text在这个时候放出了最新Beta版，尤其是增加了很多的�
 
 所以虽然现在把windows下的两个版本（32和64）的破解了，但是还不能写成注册机，Linux版的也还没开始做。今天就先把破解后的两个版本拿出来与大家交流，有愿意谈论这个软件的可以在本文后面留言。    
 
-* [sublime text 3059 x32](http://yun.baidu.com/share/link?shareid=3772766860&uk=2986591212)
-* [sublime text 3059 x64](http://yun.baidu.com/share/link?shareid=3780798375&uk=2986591212)
-
+* [sublime text 3059 Windows x32](http://yun.baidu.com/share/link?shareid=3772766860&uk=2986591212)
+* [sublime text 3059 Windows x64](http://yun.baidu.com/share/link?shareid=3780798375&uk=2986591212)
+* [sublime text 3059 Linux x32](http://yun.baidu.com/share/link?shareid=581818016&uk=2986591212)
+* [sublime text 3059 Linux x64](http://yun.baidu.com/share/link?shareid=584282963&uk=2986591212)
+* [sublime text 3059 MacOS](http://yun.baidu.com/share/link?shareid=1789397571&uk=2986591212)
 
 *使用方法*：本程序不是完整的程序，仅仅是sublime_text.exe, 所以要先到官网上下载程序并安装，然后把我的程序复制过去即可。    
 
