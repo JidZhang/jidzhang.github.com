@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sublime Text 3 Build 3059 Windows/Linux/32/64/MacOS 破解"
+title: "Sublime Text 3 Build 3059 Windows/Linux/32/64/MacOS 完美破解"
 description: ""
 category: ""
 tags: []
