@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10分钟内破解最新版sublime text 3 build 3059/3061"
+title: "10分钟破解最新版sublime text 3 build 3059/3061"
 description: ""
 category: ""
 tags: [编辑器, sublime_text]
