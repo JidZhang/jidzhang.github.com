@@ -45,8 +45,8 @@ tags: [编辑器, sublime_text]
     看到标记为w的条目，现在我鼠标双击第6行，跳到.text:0049DE29
 	![g_valid_license](https://dl.dropboxusercontent.com/u/6893139/images/sublime_text_3059_crack/2013-12-24_183849.png)
 
-	这一段是什么意思呢？    
-	按F5，看到
+	这一段是什么意思呢？    按F5，看到
+
 	![xx](https://dl.dropboxusercontent.com/u/6893139/images/sublime_text_3059_crack/2013-12-24_184038.png)
 
 	这里的意思是byte_788D90的值要根据函数sub_4C35AD而重置
@@ -58,7 +58,7 @@ tags: [编辑器, sublime_text]
 - 从上一步我们还看到函数sub_4C35AD也很重要，在源代码里，它的名字叫`check_license_file()`。    
 
     这一步我们就动手改函数sub_4C35AD。
-	双击call sub_4C35AD，跳到函数里面。然后滚动鼠标往下拉，很快看到大片的这种执行判断的代码：
+	双击call sub_4C35AD，跳到函数里面。然后滚动鼠标往下拉，很快看到大片的这种执行判断的代码：      
 	![check_number](https://dl.dropboxusercontent.com/u/6893139/images/sublime_text_3059_crack/2013-12-24_184959.png)，
 
 	相信你已经猜到这里是干什么了。继续往下拉，一直到这个函数的返回位置:
@@ -84,7 +84,7 @@ tags: [编辑器, sublime_text]
 - 用winhex打开sublime text可执行程序，按Alt+G，跳到上面的两个偏移位置 9D229和C3112，然后用键盘输入上面的十六进制代码
     - 在9D229的位置开始输入6个90
     - 在C3112的位置开始输入31C0
-	然后把文件另存，现在你另存的文件就是一个完美破解了的可执行程序，也许需要自己添加可执行权限。
+	然后把文件另存，现在你另存的文件就是一个完美破解了的可执行程序，也许需要自己添加可执行权限。     
 	![DONE](https://dl.dropboxusercontent.com/u/6893139/images/sublime_text_3059_crack/2013-12-24_192256.png)
 
 最后
