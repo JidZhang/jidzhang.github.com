@@ -8,13 +8,13 @@ tags: [编辑器, sublime_text]
 {% include JB/setup %}
 
 准备工具
-====
+----
 * IDA ：强大的反汇编工具，目前最新的可用的版本是6.1， 可以到我的共享下载[IDA6.1](http://yun.baidu.com/share/link?shareid=1536167225&uk=2986591212)
 * winhex ： 强大的十六进制编辑器，为了实现爆破必须有一个可用的十六进制编辑器。额，在这里用Vim确实不方便。可以到我的共享下载[winhex 17.2](http://yun.baidu.com/share/link?shareid=1008007072&uk=2986591212)
 * sublime text原程序，到官网下载吧，我推荐下载Protable版，解压后即可用。对MacOS用户，道理是一样的，下载dmg镜像文件后直接解压即可得到名为Sublime Text的可执行程序
 
 体验sublime text，发现突破点
-====
+----
 下面我的说明都是以sublime text windows 32位的程序为例进行说明，在其他平台上的表现完全一致。    
 
 打开sublime text程序，相信你已经把准备工作做好了。打开程序后新建文件随便写一些文字，然后狂按Ctrl+S进行保存，这时就会弹出注册对话框。如下图：
@@ -24,7 +24,7 @@ tags: [编辑器, sublime_text]
 下面就开始搞。
 
 分析程序，找到关键位置
-====
+----
 - 用IDA加载sublime text可执行程序，你应该知道自己把可执行程序放哪里了。IDA分析程序要正经花些时间，等分析完了按一下Space键，就是按一下空格键。（感觉自己很麻婆）
 
 - 在IDA里找菜单Search-->text(Alt+t), 打开搜索文本对话框，在搜索框内输入This is an，开始搜索，如下图：
@@ -73,7 +73,7 @@ tags: [编辑器, sublime_text]
     好了，现在找到要修改的位置，也知道改成什么样了，那现在就开始改可执行程序。
 
 修改可执行程序
-====
+----
 - 计算偏移值
 
 	刚才，我们记下了两个位置：0049DE29, 004C3D12        
@@ -88,12 +88,12 @@ tags: [编辑器, sublime_text]
 	![DONE](https://dl.dropboxusercontent.com/u/6893139/images/sublime_text_3059_crack/2013-12-24_192256.png)
 
 最后
-====
+----
 阅读这篇文章大概要花30分钟，但是动手操作起来实际用不了10分钟，以上的方法对于sublime text 3056和最新的3061完全适用。
 
 
 补充
-====
+----
 * sub_4C35AD为什么必需返回0 ？    
 答：返回0可以保证无需输入注册码却能被sublime text识别为**Unlimited User License**， 无限制用户，岂不很爽。
 * `byte_788D90 = sub_4C35AD() != 0 ? byte_788D90 : 0` 从这一步看sub_4C35AD返回1才对啊。    
