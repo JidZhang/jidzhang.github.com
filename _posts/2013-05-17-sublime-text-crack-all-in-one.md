@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "急速破解sublime text全部版本"
+title: "极速破解sublime text全部版本"
 description: ""
 category: 
 tags: [编辑器, sublime_text, crack]
