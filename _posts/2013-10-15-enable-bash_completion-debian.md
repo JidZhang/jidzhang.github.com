@@ -2,7 +2,7 @@
 layout: post
 title: "Debian开启/完善bash_completion"
 description: "enable bash_completion on Debian OS"
-category: 
+category: Linux
 tags: [bash, Debian]
 ---
 {% include JB/setup %}

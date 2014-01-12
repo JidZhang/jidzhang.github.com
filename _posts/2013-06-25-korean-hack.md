@@ -2,7 +2,7 @@
 layout: post
 title: "黑客组织称将击溃朝鲜网络 朝全境断网应对"
 description: ""
-category: 
+category: Hack
 tags: [黑客]
 ---
 {% include JB/setup %}

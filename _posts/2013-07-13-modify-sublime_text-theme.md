@@ -2,7 +2,7 @@
 layout: post
 title: "修改sublime_text主题(Solarized)"
 description: ""
-category: 
+category: Hack
 tags: [sublime_text]
 ---
 {% include JB/setup %}

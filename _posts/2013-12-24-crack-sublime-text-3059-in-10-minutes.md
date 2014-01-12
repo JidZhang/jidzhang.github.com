@@ -2,7 +2,7 @@
 layout: post
 title: "10分钟破解最新版sublime text 3 build 3059/3061"
 description: ""
-category: ""
+category: "Hack"
 tags: [编辑器, sublime_text]
 ---
 {% include JB/setup %}

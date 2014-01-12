@@ -2,7 +2,7 @@
 layout: post
 title: "Hello world"
 description: "jekyll init"
-category: 
+category: Geek
 tags: [intro, jekyll]
 ---
 {% include JB/setup %}

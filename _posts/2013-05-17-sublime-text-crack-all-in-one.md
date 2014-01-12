@@ -2,7 +2,7 @@
 layout: post
 title: "极速破解sublime text全部版本"
 description: ""
-category: 
+category: Hack
 tags: [编辑器, sublime_text, crack]
 ---
 {% include JB/setup %}

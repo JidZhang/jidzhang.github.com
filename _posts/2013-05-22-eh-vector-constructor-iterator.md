@@ -2,7 +2,7 @@
 layout: post
 title: "关于'eh vector constructor/destructor iterator'的讨论及类的内存分布模型"
 description: ""
-category: 
+category: Hack
 tags: [Cpp, vector, STL, new]
 ---
 {% include JB/setup %}

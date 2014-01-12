@@ -2,7 +2,7 @@
 layout: post
 title: "build vim on Linux"
 description: "how to build vim"
-category:
+category: Geek
 tags: [vim]
 ---
 {% include JB/setup %}
