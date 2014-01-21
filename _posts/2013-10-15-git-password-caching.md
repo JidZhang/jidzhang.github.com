@@ -3,7 +3,7 @@ layout: post
 title: "Git记住密码"
 description: ""
 category: Geek
-tags: [Git, Linux, Windows]
+tags: [Git,Linux,Windows]
 ---
 {% include JB/setup %}
 
