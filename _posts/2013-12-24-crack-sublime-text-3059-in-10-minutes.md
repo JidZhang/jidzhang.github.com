@@ -7,6 +7,14 @@ tags: [编辑器, sublime_text]
 ---
 {% include JB/setup %}
 
+更新
+----
+经过了差不多半年，Sublime Text的作者又开始更新了，可惜今年的更新频率远比不上前些年。难道作者不想玩了？    
+2014年5月5号，作者在Dev频道上放出了更新Build 3062, 功能略有增加。    
+下面是我修改过的sublime text, 包括了Windows 32/64, Linux 32/64 及 MacOS:
+
+[下载 Sublime Text Build 3062](https://www.dropbox.com/sh/t9cwttass0tw16w/AACwOJ-gJdbU8EFBETXCiXmia)
+
 准备工具
 ----
 * IDA ：强大的反汇编工具，目前最新的可用的版本是6.1， 可以到我的共享下载[IDA6.1](http://yun.baidu.com/share/link?shareid=1536167225&uk=2986591212)
