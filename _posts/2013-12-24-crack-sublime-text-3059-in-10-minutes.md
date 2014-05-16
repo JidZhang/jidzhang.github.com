@@ -15,6 +15,10 @@ tags: [编辑器, sublime_text]
 
 [下载 Sublime Text Build 3062](https://www.dropbox.com/sh/t9cwttass0tw16w/AACwOJ-gJdbU8EFBETXCiXmia)
 
+下载
+----
+3059,3061下载链接请转到：[**sublime text 完美破解**](http://apneng.net/2013/12/19/sublime-text-3059-windows-3264-cracker.html)
+
 准备工具
 ----
 * IDA ：强大的反汇编工具，目前最新的可用的版本是6.1， 可以到我的共享下载[IDA6.1](http://yun.baidu.com/share/link?shareid=1536167225&uk=2986591212)
