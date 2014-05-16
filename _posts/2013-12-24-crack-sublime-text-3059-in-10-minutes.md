@@ -13,7 +13,7 @@ tags: [编辑器, sublime_text]
 2014年5月5号，作者在Dev频道上放出了更新Build 3062, 功能略有增加。    
 下面是我修改过的sublime text, 包括了Windows 32/64, Linux 32/64 及 MacOS:
 
-[下载 Sublime Text Build 3062](https://www.dropbox.com/sh/t9cwttass0tw16w/AACwOJ-gJdbU8EFBETXCiXmia)
+[**下载 Sublime Text Build 3062**](https://www.dropbox.com/sh/t9cwttass0tw16w/AACwOJ-gJdbU8EFBETXCiXmia)
 
 下载
 ----
