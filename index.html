@@ -32,13 +32,16 @@ tagline: apneng go...
 	</div>
 	<br /><br />
 	<div class="entry">
-		{{ post.content | split: '<!--more-->' | first }}
-		<p>
-		<a href="{{ post.url }}/#more" class="more-link btn">
-			<span class="readmore">阅读全文 &raquo;</span>
-		</a>
-		</p>
+		{{ post.content }}
 	</div>
+	<!--<div class="entry">-->
+		<!--{{ post.content | split: '<!--more-->' | first }}-->
+		<!--<p>-->
+		<!--<a href="{{ post.url }}/#more" class="more-link btn">-->
+			<!--<span class="readmore">阅读全文 &raquo;</span>-->
+		<!--</a>-->
+		<!--</p>-->
+	<!--</div>-->
 </div>
 <br />
 {% endfor %}
