@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10分钟破解最新版sublime text 3 build 3059/3061/3062"
+title: "10分钟破解Sublime Text 3 Build 3059/3061/3062"
 description: ""
 category: "Hack"
 tags: [编辑器, sublime_text]
@@ -15,7 +15,7 @@ tags: [编辑器, sublime_text]
 
 [**下载 Sublime Text Build 3062**](https://www.dropbox.com/sh/t9cwttass0tw16w/AACwOJ-gJdbU8EFBETXCiXmia)
 
-下载
+全部版本下载
 ----
 3059,3061下载链接请转到：[**sublime text 完美破解**](http://apneng.net/2013/12/19/sublime-text-3059-windows-3264-cracker.html)
 
