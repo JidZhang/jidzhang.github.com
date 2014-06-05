@@ -6,6 +6,8 @@ category: "Hack"
 tags: []
 ---
 {% include JB/setup %}
+ *更新*：下面的百度云盘下载链接都失效了，最新的下载链接如下：    
+[**Dropbox: Sublime Text Build 3059**](https://www.dropbox.com/sh/n2xf7xvao1pya13/AADxxrbCekZzMU7zFV6sqng0a)
 
 Sublime Text在这个时候放出了最新Beta版，尤其是增加了很多的功能后，实在让人兴奋。*但是*我原来写的注册机却不能用了，见到这个情况实在是心痒，所以立马找出好久不用的IDA开始Hack。（ST的开发者，对不住了！可惜我囊肿羞涩，不然一定会买一个License的。）    
 
