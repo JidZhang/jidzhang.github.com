@@ -3,7 +3,7 @@ layout: post
 title: "在Linux命令行中设置代理服务器"
 description: ""
 category: Linux
-tags: [Geek,goAgent,proxy]
+tags: [goAgent,proxy]
 ---
 {% include JB/setup %}
 
