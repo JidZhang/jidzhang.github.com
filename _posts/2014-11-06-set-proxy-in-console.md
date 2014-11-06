@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "set proxy in console"
+title: "在Linux命令行中设置代理服务器"
 description: ""
 category: Linux
-tags: [GEEK,goAgent,proxy]
+tags: [Geek,goAgent,proxy]
 ---
 {% include JB/setup %}
 
@@ -15,6 +15,7 @@ tags: [GEEK,goAgent,proxy]
 方法
 =====
 可以通过三种方法设置代理服务器
+
 * 方法一
 
 在终端中直接运行命令 
