@@ -7,53 +7,53 @@ tags: [GEEK,goAgent,proxy]
 ---
 {% include JB/setup %}
 
-Ç°ÑÔ
+å‰è¨€
 =====
-ÔÚÊ¹ÓÃapt-get»ògit pull»òwgetµÄÊ±ºò¾­³£ÒòÎª¹úÄÚÍøÂçÏÞÖÆµÄÔ­Òò¶ø¿¼ÂÇÊ¹ÓÃ´úÀí·þÎñÆ÷£¬
-Õâ¸öÊ±ºò¾ÍÐèÒªÔÚÃüÁîÐÐÖÐÉèÖÃ´úÀí£¬Í¬Ê±ÓÖ²»Ó°ÏìÏµÍ³µÄ´úÀíÉèÖÃ¡£
+åœ¨ä½¿ç”¨apt-getæˆ–git pullæˆ–wgetçš„æ—¶å€™ç»å¸¸å› ä¸ºå›½å†…ç½‘ç»œé™åˆ¶çš„åŽŸå› è€Œè€ƒè™‘ä½¿ç”¨ä»£ç†æœåŠ¡å™¨ï¼Œ
+è¿™ä¸ªæ—¶å€™å°±éœ€è¦åœ¨å‘½ä»¤è¡Œä¸­è®¾ç½®ä»£ç†ï¼ŒåŒæ—¶åˆä¸å½±å“ç³»ç»Ÿçš„ä»£ç†è®¾ç½®ã€‚
 
-·½·¨
+æ–¹æ³•
 =====
-¿ÉÒÔÍ¨¹ýÈýÖÖ·½·¨ÉèÖÃ´úÀí·þÎñÆ÷
-* ·½·¨Ò»
+å¯ä»¥é€šè¿‡ä¸‰ç§æ–¹æ³•è®¾ç½®ä»£ç†æœåŠ¡å™¨
+* æ–¹æ³•ä¸€
 
-ÔÚÖÕ¶ËÖÐÖ±½ÓÔËÐÐÃüÁî 
+åœ¨ç»ˆç«¯ä¸­ç›´æŽ¥è¿è¡Œå‘½ä»¤ 
 
 	export http_proxy=http://proxyAddress:port
 
-Õâ¸ö°ì·¨µÄºÃ´¦ÊÇ¼òµ¥Ö±½Ó£¬²¢ÇÒÓ°ÏìÃæºÜÐ¡£¨Ö»¶Ôµ±Ç°ÖÕ¶ËÓÐÐ§£©¡£
+è¿™ä¸ªåŠžæ³•çš„å¥½å¤„æ˜¯ç®€å•ç›´æŽ¥ï¼Œå¹¶ä¸”å½±å“é¢å¾ˆå°ï¼ˆåªå¯¹å½“å‰ç»ˆç«¯æœ‰æ•ˆï¼‰ã€‚
 
-* ·½·¨¶þ
+* æ–¹æ³•äºŒ
 
-°Ñ´úÀí·þÎñÆ÷µØÖ·Ð´ÈëshellÅäÖÃÎÄ¼þ
+æŠŠä»£ç†æœåŠ¡å™¨åœ°å€å†™å…¥shellé…ç½®æ–‡ä»¶
 
 	vi ~/.bashrc
 
-ÎÄ¼þÄ©Î²Ìí¼ÓÈçÏÂÄÚÈÝ
+æ–‡ä»¶æœ«å°¾æ·»åŠ å¦‚ä¸‹å†…å®¹
 
 	http_proxy=http://proxyAddress:port
 	export http_proxy
 
-È»ºóESCºó:wq±£´æÎÄ¼þ£¬½Ó×ÅÔÚÖÕ¶ËÖÐÖ´ÐÐ 
+ç„¶åŽESCåŽ:wqä¿å­˜æ–‡ä»¶ï¼ŒæŽ¥ç€åœ¨ç»ˆç«¯ä¸­æ‰§è¡Œ 
 
 	source ~/.bashrc
 
-»òÕßÍË³öµ±Ç°ÖÕ¶ËÔÙÆðÒ»¸öÖÕ¶Ë¡£
-Õâ¸ö°ì·¨µÄºÃ´¦ÊÇ°Ñ´úÀí·þÎñÆ÷ÓÀ¾Ã±£´æÁË£¬ÏÂ´Î¾Í¿ÉÒÔÖ±½ÓÓÃÁË¡£
+æˆ–è€…é€€å‡ºå½“å‰ç»ˆç«¯å†èµ·ä¸€ä¸ªç»ˆç«¯ã€‚
+è¿™ä¸ªåŠžæ³•çš„å¥½å¤„æ˜¯æŠŠä»£ç†æœåŠ¡å™¨æ°¸ä¹…ä¿å­˜äº†ï¼Œä¸‹æ¬¡å°±å¯ä»¥ç›´æŽ¥ç”¨äº†ã€‚
 
-* ·½·¨Èý
-¸ÄÏàÓ¦¹¤¾ßµÄÅäÖÃ£¬±ÈÈçaptµÄÅäÖÃ 
+* æ–¹æ³•ä¸‰
+æ”¹ç›¸åº”å·¥å…·çš„é…ç½®ï¼Œæ¯”å¦‚aptçš„é…ç½® 
 
 	sudo vi /etc/apt/apt.conf
 
-ÔÚÎÄ¼þÄ©Î²¼ÓÈëÏÂÃæÕâÐÐ 
+åœ¨æ–‡ä»¶æœ«å°¾åŠ å…¥ä¸‹é¢è¿™è¡Œ 
 
 	Acquire::http::Proxy "http://proxyAddress:port"
 
-±£´æapt.confÎÄ¼þ¼´¿É¡£
+ä¿å­˜apt.confæ–‡ä»¶å³å¯ã€‚
 
-²¹³ä
+è¡¥å……
 =====
-Èç¹û´úÀí·þÎñÆ÷ÐèÒªµÇÂ½£¬ÕâÊ±¿ÉÒÔÖ±½Ó°ÑÓÃ»§ÃûºÍÃÜÂëÐ´½øÈ¥
+å¦‚æžœä»£ç†æœåŠ¡å™¨éœ€è¦ç™»é™†ï¼Œè¿™æ—¶å¯ä»¥ç›´æŽ¥æŠŠç”¨æˆ·åå’Œå¯†ç å†™è¿›åŽ»
 
 	http_proxy=http://userName:password@proxyAddress:port
