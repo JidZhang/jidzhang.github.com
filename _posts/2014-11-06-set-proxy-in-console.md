@@ -16,7 +16,7 @@ tags: [goAgent,proxy]
 
 * 方法一
 
-在终端中直接运行命令 
+在终端中直接运行命令
 
 	export http_proxy=http://proxyAddress:port
 
@@ -33,7 +33,7 @@ tags: [goAgent,proxy]
 	http_proxy=http://proxyAddress:port
 	export http_proxy
 
-然后ESC后:wq保存文件，接着在终端中执行 
+然后ESC后:wq保存文件，接着在终端中执行
 
 	source ~/.bashrc
 
@@ -41,7 +41,7 @@ tags: [goAgent,proxy]
 这个办法的好处是把代理服务器永久保存了，下次就可以直接用了。
 
 * 方法三
-改相应工具的配置，比如apt的配置 
+改相应工具的配置，比如apt的配置
 
 	sudo vi /etc/apt/apt.conf
 
