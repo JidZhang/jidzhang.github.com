@@ -41,11 +41,12 @@ tags: [goAgent,proxy]
 这个办法的好处是把代理服务器永久保存了，下次就可以直接用了。
 
 * 方法三
+
 改相应工具的配置，比如apt的配置
 
 	sudo vi /etc/apt/apt.conf
 
-在文件末尾加入下面这行 
+在文件末尾加入下面这行
 
 	Acquire::http::Proxy "http://proxyAddress:port"
 
