@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "openSUSEÌí¼Ó¹úÄÚµÄÔ´"
+title: "openSUSEæ·»åŠ å›½å†…çš„æº"
 description: ""
 category: Linux
 tags: [openSUSE]
 ---
 {% include JB/setup %}
 
-###ÍÂ²Û
-openSUSEµÄ·şÎñÆ÷²»Ì«¸øÁ¦£¬¾­³£ÊÇÊ®¼¸K£¬Òª»¨ºÜ³¤Ê±¼ä²ÅÄÜÏÂÔØÍê³ÌĞò¡£
-±Ï¾¹openSUSEµÄÓÃ»§Êı»¹Ã»¸ÏÉÏubuntu¡£
+###åæ§½
+openSUSEçš„æœåŠ¡å™¨ä¸å¤ªç»™åŠ›ï¼Œç»å¸¸æ˜¯åå‡ Kï¼Œè¦èŠ±å¾ˆé•¿æ—¶é—´æ‰èƒ½ä¸‹è½½å®Œç¨‹åºã€‚
+æ¯•ç«ŸopenSUSEçš„ç”¨æˆ·æ•°è¿˜æ²¡èµ¶ä¸Šubuntuã€‚
 
-###Ìí¼Ó¹úÄÚµÄÔ´
-Ä¿Ç°·¢ÏÖµÄ¸üĞÂ¼°Ê±²¢ÇÒºÜÎÈ¶¨Ô´ÊÇÖĞ¹ú¿Æ¼¼´óÑ§µÄÔ´£¬ÓÃÁËºÜ¾ÃÁË¡£  
-ÏÂÃæÌí¼ÓµÄÔ´ÒÔ13.2ÎªÀı£¬»»³É13.1¾Í¿ÉÒÔÔÚopenSUSE13.1ÉÏÓÃÁË¡£
+###æ·»åŠ å›½å†…çš„æº
+ç›®å‰å‘ç°çš„æ›´æ–°åŠæ—¶å¹¶ä¸”å¾ˆç¨³å®šæºæ˜¯ä¸­å›½ç§‘æŠ€å¤§å­¦çš„æºï¼Œç”¨äº†å¾ˆä¹…äº†ã€‚  
+ä¸‹é¢æ·»åŠ çš„æºä»¥13.2ä¸ºä¾‹ï¼Œæ¢æˆ13.1å°±å¯ä»¥åœ¨openSUSE13.1ä¸Šç”¨äº†ã€‚
 
 	sudo zypper ar -f -c http://mirrors.ustc.edu.cn/opensuse/distribution/13.2/repo/oss opensuse-oss
 	sudo zypper ar -f -c http://mirrors.ustc.edu.cn/opensuse/distribution/13.2/repo/non-oss opensuse-non-oss
