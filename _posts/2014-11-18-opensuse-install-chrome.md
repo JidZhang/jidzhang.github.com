@@ -16,4 +16,4 @@ tags: [openSUSE,chrome]
 	sudo zypper ref
 	sudo zypper in google-chrome-stable
 
-DONE.
+DONE!
