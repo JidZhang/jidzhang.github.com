@@ -3,7 +3,7 @@ layout: post
 title: "openSUSE安装chrome浏览器"
 description: ""
 category: Linux
-tags: [openSUSE,Chrome]
+tags: [openSUSE]
 ---
 {% include JB/setup %}
 
