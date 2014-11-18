@@ -6,7 +6,7 @@ category: Linux
 tags: [openSUSE,chrome]
 ---
 {% include JB/setup %}
-
+##
 在openSUSE上安装chromium一点也不是问题，因为chromium是开源的，
 源里直接有chromium。但是安装chrome就不是那么自然了，毕竟chrome不开源。
 
