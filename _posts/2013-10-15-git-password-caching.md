@@ -17,7 +17,7 @@ tags: [Git,Linux,Windows]
 		# 默认缓存密码15分钟，可以改得更长, 比如1小时
 		$ git config --global credential.helper 'cache --timeout=3600'
 
-* For [**Windows**](https://help.github.com/articles/set-up-git#platform-windows) :
+* For [**Windows**](http://gitcredentialstore.codeplex.com/) :
         
 		download ↑ & install git-credential-winstore.exe
 
