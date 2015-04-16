@@ -7,6 +7,7 @@ permalink: /:year/:month/:day/:title.html
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 # auto: true
 pygments: true
+highlighter: pygments
 markdown: rdiscount
 paginate: 5
 
