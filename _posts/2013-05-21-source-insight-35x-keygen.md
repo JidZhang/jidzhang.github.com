@@ -17,6 +17,8 @@ tags: [SI, source insight, crack]
 
 源代码：
 
+```c
+
 	/*
 	* By Apneng.Net @2013.05.21
     * 声明：以下程序仅仅用于测试二进制可执行文件，
@@ -99,3 +101,4 @@ tags: [SI, source insight, crack]
 	    return 0;
 	}
 
+```
