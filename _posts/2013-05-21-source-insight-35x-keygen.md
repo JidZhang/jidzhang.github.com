@@ -17,8 +17,7 @@ tags: [SI, source insight, crack]
 
 源代码：
 
-
-```c
+{% highlight c %}
 
 /*
 * By Apneng.Net @2013.05.21
@@ -102,4 +101,4 @@ int main()
 	return 0;
 }
 
-```
+{% endhighlight %}
