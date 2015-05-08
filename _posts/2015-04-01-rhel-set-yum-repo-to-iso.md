@@ -44,12 +44,14 @@ tags: [YUM]
 3. mkdir -p /var/rhel/{Cluster,ClusterStorage,Server,VT}
 
 4. createrepo
+
 	createrepo -o /var/rhel/Cluster -g /media/rhel/Cluster/repodata/comps-rhel5-cluster.xml /media/rhel/Cluster
 	createrepo -o /var/rhel/ClusterStorage -g /media/rhel/ClusterStorage/repodata/comps-rhel5-cluster-st.xml /media/rhel/ClusterStorage
 	createrepo -o /var/rhel/Server -g /media/rhel/Server/repodata/comps-rhel5-server-core.xml /media/rhel/Server
 	createrepo -o /var/rhel/VT -g /media/rhel/VT/repodata/comps-rhel5-vt.xml /media/rhel/VT
 
 5. mount 
+
 	mount --bind /var/rhel/Cluster/repodata /media/rhel/Cluster/repodata
 	mount --bind /var/rhel/ClusterStorage/repodata /media/rhel/ClusterStorage/repodata
 	mount --bind /var/rhel/Server/repodata /media/rhel/Server/repodata
