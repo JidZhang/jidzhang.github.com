@@ -2,7 +2,7 @@
 layout: post
 title: "RHEL 5.x 将光盘指定为YUM服务器"
 description: "RHEL 5.x ，如何将光盘指定为YUM服务器"
-category: 百度,Linux
+category: Linux
 tags: [YUM]
 ---
 {% include JB/setup %}

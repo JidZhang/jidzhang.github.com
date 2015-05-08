@@ -2,7 +2,7 @@
 layout: post
 title: "Virtuoso Layout Editor快捷键归纳"
 description: ""
-category:百度 
+category: 
 tags: [Unix]
 ---
 {% include JB/setup %}
