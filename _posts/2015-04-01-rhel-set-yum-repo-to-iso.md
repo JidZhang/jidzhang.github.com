@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "RHEL 5.x ������ָ��ΪYUM������"
-description: "RHEL 5.x ����ν�����ָ��ΪYUM������"
-category: �ٶ�,Linux
+title: "RHEL 5.x 将光盘指定为YUM服务器"
+description: "RHEL 5.x ，如何将光盘指定为YUM服务器"
+category: 百度,Linux
 tags: [YUM]
 ---
 {% include JB/setup %}
 
-������һ�£�ȷʵ�ǿ��Խ����̾�����Ϊyum�İ�װ������������ϲ����rhel���˻��ǱȽϷ���ġ�������Ҳ���Խ����°汾��rhel�����������Ʒ���yum upgradeʵ�ְ汾���¡�
+测试了一下，确实是可以将光盘镜像作为yum的安装服务器。对于喜欢用rhel的人还是比较方便的。理论上也可以将在新版本的rhel出来后，用类似方法yum upgrade实现版本更新。
 
 1. mount -o loop rhel-5-server-dvd.iso /media/rhel
 

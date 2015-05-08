@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Vim¹Ø±Õ×Ô¶¯±¸·İ"
-description: "Vim¹Ø±Õ×Ô¶¯±¸·İ"
+title: "Vimå…³é—­è‡ªåŠ¨å¤‡ä»½"
+description: "Vimå…³é—­è‡ªåŠ¨å¤‡ä»½"
 category: Geek
 tags: [vim]
 ---
 {% include JB/setup %}
 
-ÔËĞĞVim£¬ÔÚVimÀïÖ´ĞĞ£º`:e $MYVIMRC`£¬´ò¿ªVimÅäÖÃÎÄ¼şºó£¬ÔÚÀïÃæÌí¼Ó´úÂë `set nobackup`
+è¿è¡ŒVimï¼Œåœ¨Vimé‡Œæ‰§è¡Œï¼š`:e $MYVIMRC`ï¼Œæ‰“å¼€Vimé…ç½®æ–‡ä»¶åï¼Œåœ¨é‡Œé¢æ·»åŠ ä»£ç  `set nobackup`
