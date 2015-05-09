@@ -16,7 +16,7 @@ http://mally.stanford.edu/~sr/computing/basic-unix.html
 http://pangea.stanford.edu/computing/unix/shell/commands.php
 http://infohost.nmt.edu/tcc/help/unix/unix_cmd.html
 
-2. 编辑器– vi, Emacs
+2. 编辑器 – vi, Emacs
 
 http://www.atmos.albany.edu/deas/atmclasses/atm350/vi_cheat_sheet.pdf
 http://cmgm.stanford.edu/classes/unix/emacs.html
