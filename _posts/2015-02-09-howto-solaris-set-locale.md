@@ -73,45 +73,49 @@ example:
 
 ## 附录：
 
-	You can change your system locale on UNIX and Linux systems.
-	You can set environment variables to control the system locale. You can set these variables to be system-wide, or on a per-session basis:
+{% highlight bash %}
 
-	LC_ALL
-	    Overrides all LC_* environment variables with the given value
-	LC_CTYPE
-	    Character classification and case conversion
-	LC_COLLATE
-	    Collation (sort) order
-	LC_TIME
-	    Date and time formats
-	LC_NUMERIC
-	    Non-monetary numeric formats
-	LC_MONETARY
-	    Monetary formats
-	LC_MESSAGES
-	    Formats of informative and diagnostic messages, and of interactive responses
-	LC_PAPER
-	    Paper size
-	LC_NAME
-	    Name formats
-	LC_ADDRESS
-	    Address formats and location information
-	LC_TELEPHONE
-	    Telephone number formats
-	LC_MEASUREMENT
-	    Measurement units (Metric or Other)
-	LC_IDENTIFICATION
-	    Metadata about the locale information
-	LANG
-	    The default value, which is used when either LC_ALL is not set, or an applicable value for LC_* is not set
-	NLSPATH
-	    Delimited list of paths to search for message catalogs
-	TZ
-	    Time zone
+You can change your system locale on UNIX and Linux systems.
+You can set environment variables to control the system locale. You can set these variables to be system-wide, or on a per-session basis:
 
-	  LC_MESSAGES and NLSPATH are the most important variables to the broker. These variables define the language and location of response messages that the broker uses. The broker profile file, mqsiprofile, sets NLSPATH. Either you, or your system must set LC_MESSAGES. The value set in LC_MESSAGES must be a value that the broker recognizes. LC_CTYPE is also important to the broker because it defines the character conversion that the broker performs when interacting with the local environment.
-	   If you use common desktop environment (CDE), use this environment to set the locale instead of setting LANG and LC_ALL directly. The NLSPATH variable respects either method. Before setting the code page, check that it is one of the Supported code pages.
-	For example, to set WebSphere® Message Broker to run in a UTF-8 environment set the following values in the profile:
-	LANG=en_US.utf-8
-	LC_ALL=en_US.utf-8
-	Where en_US sets the language, and utf-8 sets the code page.
+LC_ALL
+    Overrides all LC_* environment variables with the given value
+LC_CTYPE
+    Character classification and case conversion
+LC_COLLATE
+    Collation (sort) order
+LC_TIME
+    Date and time formats
+LC_NUMERIC
+    Non-monetary numeric formats
+LC_MONETARY
+    Monetary formats
+LC_MESSAGES
+    Formats of informative and diagnostic messages, and of interactive responses
+LC_PAPER
+    Paper size
+LC_NAME
+    Name formats
+LC_ADDRESS
+    Address formats and location information
+LC_TELEPHONE
+    Telephone number formats
+LC_MEASUREMENT
+    Measurement units (Metric or Other)
+LC_IDENTIFICATION
+    Metadata about the locale information
+LANG
+    The default value, which is used when either LC_ALL is not set, or an applicable value for LC_* is not set
+NLSPATH
+    Delimited list of paths to search for message catalogs
+TZ
+    Time zone
+
+  LC_MESSAGES and NLSPATH are the most important variables to the broker. These variables define the language and location of response messages that the broker uses. The broker profile file, mqsiprofile, sets NLSPATH. Either you, or your system must set LC_MESSAGES. The value set in LC_MESSAGES must be a value that the broker recognizes. LC_CTYPE is also important to the broker because it defines the character conversion that the broker performs when interacting with the local environment.
+   If you use common desktop environment (CDE), use this environment to set the locale instead of setting LANG and LC_ALL directly. The NLSPATH variable respects either method. Before setting the code page, check that it is one of the Supported code pages.
+For example, to set WebSphere® Message Broker to run in a UTF-8 environment set the following values in the profile:
+LANG=en_US.utf-8
+LC_ALL=en_US.utf-8
+Where en_US sets the language, and utf-8 sets the code page.
+
+{% endhighlight %}

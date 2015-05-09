@@ -23,6 +23,7 @@ To create an account for 'oops' where the home directory is automounted andthe m
     mkdir /export/home/oops
     chown oops /export/home/oops
     chgrp user /export/home/oops
+    
     vi /etc/auto_homeand add the line:
 
     oops remotehost:/home/&
