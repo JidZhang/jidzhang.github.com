@@ -39,7 +39,7 @@ SmartTemplate的强大之处就是可以直接用html控制邮件的格式，
 其中，%**%之类的东西是SmartTemplate定义的几个宏，完整宏列表在链接 可以找到，或者见下：
 
 附录：
-
+{% highlight bash %}
 	Reserved words - Common ：
 	%ownname%
 	Own account name
@@ -157,3 +157,5 @@ SmartTemplate的强大之处就是可以直接用html控制邮件的格式，
 
 	New-line
 	You need to use <br> for new-line, when 'Replace new-line with <br>' does not used.
+
+{% endhighligh %}
