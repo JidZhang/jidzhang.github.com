@@ -20,7 +20,6 @@ Firefox23.0在首选项中取消了javascript的设置项。
 
 3. 双击刚才看到的条目，把选项改为true！
 
-   要禁用（你确定？）javascript，则再双击一次，改为false即可！
-
+要禁用（你确定？）javascript，则再双击一次，改为false即可！
 
 不需要重启Firefox，现在javascript已经被启用了！
