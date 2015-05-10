@@ -19,7 +19,7 @@ tags: [Firefox]
 
 这里以16.0.1为例进行说明，你需要找个自己对应的版本。
 
-	ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/16.0.1/win32/xpi/
+`ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/16.0.1/win32/xpi/`
 
 在上面找到zh-CN.xpi，点击后安装
 

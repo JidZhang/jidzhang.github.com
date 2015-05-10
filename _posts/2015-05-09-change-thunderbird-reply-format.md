@@ -27,6 +27,7 @@ SmartTemplate的强大之处就是可以直接用html控制邮件的格式，
 
 首先点选图中所示的几个选项，然后复制如下代码
 
+
 ```
 -------- <FONT face=Verdana size=3>原始信息</FONT> --------
 <FONT face=Verdana size=2><b>发件人</b></FONT>: %from%
@@ -41,6 +42,7 @@ SmartTemplate的强大之处就是可以直接用html控制邮件的格式，
 其中，%**%之类的东西是SmartTemplate定义的几个宏，完整宏列表在链接 可以找到，或者见下：
 
 附录：
+
 
 ```
 Reserved words - Common ：

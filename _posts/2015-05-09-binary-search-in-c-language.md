@@ -11,15 +11,24 @@ tags: []
 但是如果线性表是有序的，比如由小到大递增（完全可以是自定义的比较方法），那么在这种情况下使用二分查找法会是首选。当然，这么重要的函数，一般的库都会提供，比如：
 
 > C provides bsearch() in its standard library.
-C++'s STL provides algorithm functions binary_search, lower_bound and upper_bound.
-Java offers a set of overloaded binarySearch() static methods in the classes Arrays and Collections in the standard java.util package for performing binary searches on Java arrays and on Lists, respectively. They must be arrays of primitives, or the arrays or Lists must be of a type that implements the Comparable interface, or you must specify a custom Comparator object.
-Microsoft's .NET Framework 2.0 offers static generic versions of the binary search algorithm in its collection base classes. An example would be System.Array's method BinarySearch<T>(T[] array, T value).
-Python provides the bisect module.
-COBOL can perform binary search on internal tables using the SEARCH ALL statement.
-Perl can perform a generic binary search using the CPAN module Search::Binary.[7]
-Go's sort standard library package contains functions Search, SearchInts, SearchFloat64s, and SearchStrings, which implement general binary search, as well as specific implementations for searching slices of integers, floating-point numbers, and strings, respectively.[3]
-For Objective-C, the Cocoa framework provides the NSArray -indexOfObject:inSortedRange:options:usingComparator: method in Mac OS X 10.6+. Apple's Core Foundation C framework also contains a CFArrayBSearchValues() function.
-(以上文字摘自wikipedia)
+> 
+> C++'s STL provides algorithm functions binary_search, lower_bound and upper_bound.
+> 
+> Java offers a set of overloaded binarySearch() static methods in the classes Arrays and Collections in the standard > java.util package for performing binary searches on Java arrays and on Lists, respectively. They must be arrays of > primitives, or the arrays or Lists must be of a type that implements the Comparable interface, or you must specify a > custom Comparator object.
+> 
+> Microsoft's .NET Framework 2.0 offers static generic versions of the binary search algorithm in its collection base > classes. An example would be System.Array's method BinarySearch<T>(T[] array, T value).
+> 
+> Python provides the bisect module.
+> 
+> COBOL can perform binary search on internal tables using the SEARCH ALL statement.
+> 
+> Perl can perform a generic binary search using the CPAN module Search::Binary.[7]
+> 
+> Go's sort standard library package contains functions Search, SearchInts, SearchFloat64s, and SearchStrings, which > implement general binary search, as well as specific implementations for searching slices of integers, floating-point > numbers, and strings, respectively.[3]
+> 
+> For Objective-C, the Cocoa framework provides the NSArray -indexOfObject:inSortedRange:options:usingComparator: method > in Mac OS X 10.6+. Apple's Core Foundation C framework also contains a CFArrayBSearchValues() function.
+> 
+> (以上文字摘自wikipedia)
 
 但是，正如“编程珠玑”语言的，90%的程序员却不能在第一次写出无bug的二分查找算法，虽说二分查找的思想很简单，但一实现就不免有疏漏。下面提供一段本人用C写的二分查找算法。
 
@@ -146,5 +155,4 @@ int main()
 }
 {% endhighlight %}
 
-参考资料：
-        [Binary search algorithm (From wikipedia)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
+参考资料：[Binary search algorithm (From wikipedia)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
