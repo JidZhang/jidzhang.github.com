@@ -11,7 +11,7 @@ tags: []
 
 该项控制命令写在$VIMRUNTIME/vimrc_example.vim下，可以把下面的命令拷贝到 `{$HOME}/.vimrc` 文件中，本方法尤其适用于Linux用户：
 
-{% highlight vimrc %}
+{% highlight vim %}
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 

@@ -39,7 +39,7 @@ tags: [模板]
 
 下面列出源代码，及源代码下载：
 
-{% highlight %}
+{% highlight cpp %}
 //friend.h
 #include <iostream>
 using namespace std;
