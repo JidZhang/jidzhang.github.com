@@ -11,13 +11,13 @@ Thunderbird回复邮件的格式很不好看，而且还是把回复的内容都
 
 下面是对这个使用问题的解决办法：
 
-1. 回复内容放在最前边
+（1）回复内容放在最前边
 
 英文界面：Edit->Perferences->Advanced->Config Editor->I'll be careful,I promise->mail.identity.default.reply_on_top 会发现目前的默认值为0，改为1即可。
 
 中文界面：工具->选项->高级->常规->配置编辑器->我保证会小心->mail.identity.default.reply_on_top  将默认值由0为1
 
-2. 安装附加插件：
+（2）安装附加插件：
 
 SmartTemplate的强大之处就是可以直接用html控制邮件的格式，
 
@@ -26,7 +26,6 @@ SmartTemplate的强大之处就是可以直接用html控制邮件的格式，
 ![thunderbird conf]({{ site.img_url }}/thunderbird-format.jpg)
 
 首先点选图中所示的几个选项，然后复制如下代码
-
 
 ```
 -------- <FONT face=Verdana size=3>原始信息</FONT> --------
