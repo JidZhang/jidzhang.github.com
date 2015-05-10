@@ -79,7 +79,7 @@ int main()
 
 }
 
-{% end highlight %}
+{% endhighlight %}
 
 PS:本算法的通用性较高，甚至可以用于不共面的点集。
 

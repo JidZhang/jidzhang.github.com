@@ -30,4 +30,4 @@ To create an account for 'oops' where the home directory is automounted andthe m
 
 This sets the user oops' home directory to/home/oopsexported from a remote host.
 
-From : [Unix Workstation Administration Tasks]()
+From : [Unix Workstation Administration Tasks](http://ibgwww.colorado.edu/~lessem/psyc5112/usail/tasks/toc.html)

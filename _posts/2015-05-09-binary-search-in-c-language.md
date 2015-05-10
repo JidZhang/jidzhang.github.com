@@ -144,7 +144,7 @@ int main()
 
     return 0;
 }
-{%end highlight %}
+{% endhighlight %}
 
 参考资料：
         [Binary search algorithm (From wikipedia)](http://en.wikipedia.org/wiki/Binary_search_algorithm)

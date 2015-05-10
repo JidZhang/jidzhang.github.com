@@ -11,9 +11,9 @@ tags: []
 
 了解404页面的信息非常有用，可以发现访问者要查找的内容和推介来源，有助于网站补充新的内容并修复有问题的链接。如何使用Google Analytics来追踪并显示404页面的情况？Google Analytics的官方博客介绍了[一个简单的方法](http://analytics.blogspot.com/2006/09/tip-tracking-404-pages.html)，使用Google Analytics可以跟踪网站的404页面错误。
 
-1. 将网站的Google Analytics追踪代码添加到404 页面里。
+(1) 将网站的Google Analytics追踪代码添加到404 页面里。
 
-2. 修改404页面的Google Analytics代码，将代码修改为一下形式：
+(2) 修改404页面的Google Analytics代码，将代码修改为一下形式：
 	
 	<script type="text/javascript"
 	src="http://www.google-analytics.com/urchin.js">
@@ -23,7 +23,7 @@ tags: []
 	urchinTracker("/404.html?page=" + _udl.pathname + _udl.search);
 	</script>
 
-3. 在热门内容报告中即可查看/404.html页面的报告，里面的信息包括出现错误的URL地址，还会显示访问者上一个访问的页面（推介来源）。通过这些信息，可以及时检查相关页面，修改错误链接。
+(3) 在热门内容报告中即可查看/404.html页面的报告，里面的信息包括出现错误的URL地址，还会显示访问者上一个访问的页面（推介来源）。通过这些信息，可以及时检查相关页面，修改错误链接。
 
 转自：[月光博客](http://www.williamlong.info/archives/2699.html)
 

@@ -16,7 +16,7 @@ Firefox23.0在首选项中取消了javascript的设置项。
 1. 在地址栏中输入about:config, 然后选“我保证会小心”，进入设置项页面
 
 2. 在出现的搜索栏内输入javascript，在下面的列表中会看到javascript.enabled被设置为false
-[firefox confiure]({{ site.img_url }}/firefox-enable-js.jpeg)
+![firefox confiure]({{ site.img_url }}/firefox-enable-js.jpeg)
 
 3. 双击刚才看到的条目，把选项改为true！
 

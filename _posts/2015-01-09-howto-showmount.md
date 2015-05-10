@@ -20,7 +20,6 @@ showmount常用法:
 
 	showmount –e （列出server端的共享目录）
 
- 
 
 通常可以这样查询某个Server：
 

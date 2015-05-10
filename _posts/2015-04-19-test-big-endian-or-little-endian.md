@@ -45,7 +45,7 @@ int main(int argc, char const *argv[])
 {% endhighlight %}
 
 什么是大端序/小端序啊？ 出处是“爱丽丝梦游仙境”里的鸡蛋的吃法，从小端开始吃还是从大端开始吃，如下图：
-[how to eat egg]({{ site.img_url }}/bigendian-or-littleendian.jpeg)
+![how to eat egg]({{ site.img_url }}/bigendian-or-littleendian.jpeg)
  
 
 参考： [wikipedia](http://en.wikipedia.org/wiki/Big-endian)
