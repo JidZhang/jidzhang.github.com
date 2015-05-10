@@ -2,7 +2,7 @@
 layout: post
 title: "怀旧：Turbo C 英文原版 + 免安装版 下载"
 description: ""
-category: 百度, Geek
+category: Geek
 tags: [TurboC]
 ---
 {% include JB/setup %}
