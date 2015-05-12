@@ -28,4 +28,4 @@ tags: []
 
 上面两条都要执行，切记！
 
-参考资料：[ubuntu wiki](http://wiki.ubuntu.org.cn/UbuntuSkills#.E4.B8.80.E9.94.AE.E5.AE.89.E8.A3.85_LAMP_.E6.9C.8D.E5.8A.A1)
+参考资料：[Ubuntu Skills](http://wiki.ubuntu.org.cn/UbuntuSkills#.E4.B8.80.E9.94.AE.E5.AE.89.E8.A3.85_LAMP_.E6.9C.8D.E5.8A.A1)
