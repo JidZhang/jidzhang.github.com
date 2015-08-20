@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ubuntu安装MySQL客户端及开发库lib"
+title: "Ubuntu安装MySQL客户端及程序开发包"
 description: ""
 category: Linux
 tags: [ubuntu,MySQL]
@@ -19,6 +19,6 @@ tags: [ubuntu,MySQL]
 
 参考资料：
 
-ubuntu wiki:http://wiki.ubuntu.org.cn/MySQL%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97
+[ubuntu wiki](http://wiki.ubuntu.org.cn/MySQL%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97)
 
-163Blog:http://zhanyonhu.blog.163.com/blog/static/1618604420106141142702/
+[163 Blog](http://zhanyonhu.blog.163.com/blog/static/1618604420106141142702/)

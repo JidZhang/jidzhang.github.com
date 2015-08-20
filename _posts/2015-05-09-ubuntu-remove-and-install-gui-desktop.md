@@ -7,9 +7,11 @@ tags: [ubuntu]
 ---
 {% include JB/setup %}
 
-通常的流程是这样：假如你已经默认安装了Gnome，现在想安装KDE或XFCE4，那么需要先卸载掉gnome，然后“在线”下载安装另一个桌面系统，如果你一开始用的就是server版，直接安装就可以了，看下面。
+# Ubuntu安装和卸载图形界面
 
-## 卸载
+通常的流程是这样：假如你已经默认安装了Gnome，现在想安装KDE或XFCE4，那么需要先卸载掉gnome，然后“在线”下载安装另一个桌面系统；如果你一开始用的是ubuntu-server版，直接安装就可以了，看下面。
+
+## 卸载桌面
 
 卸载gnome：
 
@@ -26,7 +28,7 @@ tags: [ubuntu]
 	sudo apt-get --purge remove kdelibs4c2a libarts1c2a
 	sudo apt-get autoremove
 
-## 安装：
+## 安装桌面
 
 安装gnome：
 

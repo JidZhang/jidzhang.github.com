@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Matlab最小化安装"
-description: ""
+description: "最小化安装Matlab"
 category: Geek
 tags: [Matlab]
 ---

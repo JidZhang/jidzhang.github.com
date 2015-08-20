@@ -2,7 +2,7 @@
 layout: post
 title: "VIM查看文件编码、文件编码格式转换及文件名编码转换"
 description: ""
-category: 
+category:Vim 
 tags: []
 ---
 {% include JB/setup %}
@@ -14,6 +14,7 @@ Windows中默认的文件格式是GBK(gb2312)，而Linux一般都是UTF-8。
 下面介绍一下，在Linux中如何查看文件的编码及如何进行对文件进行编码转换。
 
 ## 查看文件编码
+
 在Linux中查看文件编码可以通过以下几种方式：
 1.在Vim中可以直接查看文件编码
 :set fileencoding
