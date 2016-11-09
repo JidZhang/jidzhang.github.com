@@ -16,8 +16,13 @@ Windows中默认的文件格式是GBK(gb2312)，而Linux一般都是UTF-8。
 ## 查看文件编码
 
 在Linux中查看文件编码可以通过以下几种方式：
+
 1.在Vim中可以直接查看文件编码
-:set fileencoding
+
+
+	:set fileencoding
+
+
 即可显示文件编码格式。
 如果你只是想查看其它编码格式的文件或者想解决用Vim查看文件乱码的问题，那么你可以在
 ~/.vimrc 文件中添加以下内容：
@@ -32,15 +37,21 @@ Windows中默认的文件格式是GBK(gb2312)，而Linux一般都是UTF-8。
 
 1. 在Vim中直接进行转换文件编码,比如将一个文件转换成utf-8格式
 
+	```
 	:set fileencoding=utf-8
-
+	```
 
 2. iconv 转换，iconv的命令格式如下：
-
+	
+	```
 	iconv -f encoding -t encoding inputfile
-比如将一个UTF-8 编码的文件转换成GBK编码
+	```
 
+	比如将一个UTF-8 编码的文件转换成GBK编码
+	
+	```
 	iconv -f GBK -t UTF-8 file1 -o file2
+	```
 
 ## 文件名编码转换:
 
