@@ -14,7 +14,7 @@ paginate: 5
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Apneng.Net
+title : 疯狂的键盘
 # tagline: Site Tagline
 author :
   name : Apneng
@@ -31,10 +31,10 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-# production_url : http://jidzhang.github.io
-# img_url : http://jidzhang.github.io/assets/images
-production_url : http://apneng.net
-img_url : http://apneng.net/assets/images
+ production_url : http://jidzhang.github.io
+ img_url : http://jidzhang.github.io/assets/images
+#production_url : http://apneng.net
+#img_url : http://apneng.net/assets/images
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
