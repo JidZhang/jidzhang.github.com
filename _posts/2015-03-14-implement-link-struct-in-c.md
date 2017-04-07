@@ -5,6 +5,7 @@ description: ""
 category: Code
 tags: [链表]
 ---
+## 用C语言实现一个简单链表数据结构
 
 {% highlight c %}
 /*
@@ -28,7 +29,7 @@ void first_insert(NODE ** p, int v)
     NODE *q = (NODE *)malloc(sizeof(NODE));
     q->val = v;
     q->next = *p;
-    
+
     *p = q;
 }
 

@@ -2,7 +2,7 @@
 layout: post
 title: "使用Google Analytics跟踪404页面"
 description: ""
-category: 
+category:
 tags: []
 ---
 
@@ -13,7 +13,7 @@ tags: []
 (1) 将网站的Google Analytics追踪代码添加到404 页面里。
 
 (2) 修改404页面的Google Analytics代码，将代码修改为一下形式：
-	
+
 	<script type="text/javascript"
 	src="http://www.google-analytics.com/urchin.js">
 	</script>

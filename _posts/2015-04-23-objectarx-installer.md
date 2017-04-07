@@ -2,10 +2,9 @@
 layout: post
 title: "ObjectARX全部版本下载"
 description: ""
-category: 
+category:
 tags: [ObjectArx]
 ---
-{% include JB/setup %}
 
 2010（32位和64位版本）
 http://download.autodesk.com/akdlm/esd/dlm/objectarx/ObjectARX_2010_Win_64_and_32Bit.exe
@@ -20,41 +19,41 @@ http://download.autodesk.com/esd/objectarx/2008/ObjectARX_2008_32Bit.exe
 http://download.autodesk.com/esd/objectarx/2008/ObjectARX_2008_64Bit.exe
 
 2007
-－Core 
+－Core
 http://download.autodesk.com/esd/objectarx/2007/Arx_Core.exe
-－SDK 
+－SDK
 http://download.autodesk.com/esd/objectarx/2007/Arx_All.exe
 
 2006
-－Core 
+－Core
 http://download.autodesk.com/WebPub/autocad/oarx2006/Arx_Core.exe
-－SDK 
+－SDK
 http://download.autodesk.com/WebPub/autocad/oarx2006/Arx_All.exe
 
 2005
-－Core 
+－Core
 http://download.autodesk.com/WebPub/Developer/autocad/Arx_Core2005.exe
-－SDK 
+－SDK
 http://download.autodesk.com/WebPub/Developer/autocad/Arx_All2005.exe
 
 2004
-－Core 
+－Core
 http://download.autodesk.com/WebPub/autocad/oarx/arx_core.exe
-－SDK 
+－SDK
 http://download.autodesk.com/WebPub/autocad/oarx/arx_sdk.exe
 
 2002
-－Core 
+－Core
 http://download.autodesk.com/pub/objectarx/objectarx_2002/K030.arx.plus.core.zip
-－SDK 
+－SDK
 http://download.autodesk.com/pub/objectarx/objectarx_2002/K030.arx.plus.all.zip
 
-2000 
-－Core 
+2000
+－Core
 http://download.autodesk.com/pub/objectarx/ObjectArxCore.exe
-－SDK 
+－SDK
 http://download.autodesk.com/pub/objectarx/ObjectArxSDK.exe
 
-R14 
-－SDK 
+R14
+－SDK
 http://download.autodesk.com/Pub/developer/sdk/obarxsdk.exe

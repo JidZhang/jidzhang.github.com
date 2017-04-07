@@ -5,6 +5,7 @@ description: ""
 category: Code
 tags: []
 ---
+## C语言实现简单的链式栈结构
 
 {% highlight c %}
 /*
@@ -23,7 +24,7 @@ tags: []
  * （4）LinkStack Pop_LinkStack(LinkStack top, valuetype *x) : 弹出top所指链栈的栈顶元素x,返回新栈指针
  *
  */
- 
+
 #include <stdio.h>
 #include <malloc.h>
 
@@ -33,7 +34,7 @@ typedef struct node
     valuetype data;
     struct node * next;
 } StackNode, *LinkStack;
- 
+
 LinkStack Init_LinkStack()
 {
     return NULL;
@@ -44,7 +45,7 @@ int Empty_LinkStack(LinkStack top)
     if (top==NULL)  return 1;
     else    return 0;
 }
- 
+
 LinkStack Push_LinkStack(LinkStack top, valuetype x)
 {
     StackNode *s = (StackNode *)malloc(sizeof(StackNode));

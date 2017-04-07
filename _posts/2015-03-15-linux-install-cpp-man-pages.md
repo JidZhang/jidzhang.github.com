@@ -25,28 +25,30 @@ tags: [man]
 以决定安装4.2、4.3或4.4
 
 下面是英文原文：
+>
+	It’s so easy to search for any C related programming functions. All you need is to search the man pages. Take for example, if you want to know more about printf, simply type
+	`$ man 2 printf`
 
-It’s so easy to search for any C related programming functions. All you need is to search the man pages. Take for example, if you want to know more about printf, simply type
-$ man 2printf
+	But that’s not the case with C++ functions. Every time, you have to go to the web for any doubts related to C++ functions. There are two ways by which you can search for documentation related to C++ functions.
 
-But that’s not the case with C++ functions. Every time, you have to go to the web for any doubts related to C++ functions. There are two ways by which you can search for documentation related to C++ functions.
+	    Man pages for C++ functions
+	    HTML documentation
 
-    Man pages for C++ functions
-    HTML documentation
+	Both of the above are available from a single package. To install C++ documentation
+	`$ sudo apt-get install libstdc++6-4.4-doc`
 
-Both of the above are available from a single package. To install C++ documentation
-$ sudo apt-get install libstdc++6-4.4-doc
+	This installs both the man pages and HTML documentation.
+	The HTML documentation is found in the following path:file:///usr/share/doc/libstdc++6-4.4-doc/libstdc++/html/index.html
 
-This installs both the man pages and HTML documentation.
-The HTML documentation is found in the following path:file:///usr/share/doc/libstdc++6-4.4-doc/libstdc++/html/index.html
+	If you are struggling to search C++ man pages, ReferHow to search C++ man pages
+	Now there may be case that when you are referring this article the documentation 6.4.4 version is no longer available.
 
-If you are struggling to search C++ man pages, ReferHow to search C++ man pages
-Now there may be case that when you are referring this article the documentation 6.4.4 version is no longer available.
+	In that case, follow the following steps
+	`$ apt-cache search libstdc++|grep"doc"`
 
-In that case, follow the following steps
-$ apt-cache search libstdc++|grep"doc"libstdc++6-4.4-doc - The GNU Standard C++ Library v3 (documentation files)libstdc++6-4.1-doc - The GNU Standard C++ Library v3 (documentation files)libstdc++6-4.3-doc - The GNU Standard C++ Library v3 (documentation files)
+	libstdc++6-4.4-doc - The GNU Standard C++ Library v3 (documentation files)libstdc++6-4.1-doc - The GNU Standard C++ Library v3 (documentation files)libstdc++6-4.3-doc - The GNU Standard C++ Library v3 (documentation files)
 
-Search for the libstdc++ docs as shown above and install the version you want, preferably the latest ones (as shown above)
+	Search for the libstdc++ docs as shown above and install the version you want, preferably the latest ones (as shown above)
 
-$ sudo apt-get install libstdc++6-4.4-doc
+	`$ sudo apt-get install libstdc++6-4.4-doc`
 

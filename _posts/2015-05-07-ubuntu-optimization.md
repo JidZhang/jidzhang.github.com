@@ -2,7 +2,7 @@
 layout: post
 title: "ubuntu 系统优化"
 description: ""
-category: Linux
+categories: Linux ubuntu
 tags: [ubuntu]
 ---
 
@@ -22,7 +22,7 @@ Ubuntu感觉网速慢，打开网页比较慢，主要是把时间浪费在域�
 	sudo gedit /etc/dnsmasq.conf
 
 找到下面这一项
-	
+
 	#resolv-file=
 
 用下面的一条语句替换
@@ -49,7 +49,7 @@ Ubuntu感觉网速慢，打开网页比较慢，主要是把时间浪费在域�
 保存，退出
 
 执行以下命令
-	
+
 	sudo gedit /etc/ppp/peers/wvdial
 
 在 usepeerdns 前面增加 ＃ ，也就是把这条语句覆盖掉。
@@ -84,7 +84,7 @@ Linux 系统任何时候都运行在一个指定的运行级上，并且不同�
 	runlevel（ runlevel 显示上次的运行级别和当前的运行级别，“N”表示没有上次的运行级别。）
 
 切换运行级别，执行命令：
-	
+
 	int [0123456Ss]
 （ 即在 init 命令后跟一个参数，此参数是要切换到的运行级的运行级代号，如：用 init 0 命令关机；用 init 6 命令重新启动。）
 
@@ -95,7 +95,7 @@ Windows 使用 NTLDR 作为 Boot Manager,如果您的系统中安装多个
 版本的 Windows,您就需要在 NTLDR 中选择您要进入的系统。
 Linux 通常使用功能强大,配置灵活的 GRUB 作为 Boot Manager。
 
-2.加载系统内核,启动 init 进程  
+2.加载系统内核,启动 init 进程
 init 进程是 Linux 的根进程,所有的系统进程都是它的子进程。
 
 3.init 进程读取 /etc/inittab 文件中的信息,并进入预设的运行级别,

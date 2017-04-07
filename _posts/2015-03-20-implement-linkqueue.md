@@ -6,6 +6,8 @@ category: Code
 tags: []
 ---
 
+##用C语言实现简单链式队列结构
+
 {% highlight c %}
 /*
  * 用链式结构实现的队列称为链队。根据队列的FIFO原则，为了操作上的方便，可以用带头指针font和尾指针rear的单链表来实现队列。链队结构描述：
@@ -18,7 +20,7 @@ tags: []
  * {
  *     QNode *font, *rear;
  * }LQueue;    [>将头尾指针封装在一起的链队<]
- * 
+ *
  * 设q是一个指向链队的指针，即LQueue *q. 各函数的功能如下：
  * （1）LQueue * Init_LQueue(): 创建并返回一个带头尾结点的空链队
  * （2）int Empty_LQueue(LQueue *q): 判断链队是否为空
@@ -38,7 +40,7 @@ typedef struct node
 {
     valuetype data;
     struct node *next;
-}QNode;   
+}QNode;
 typedef struct
 {
     QNode *font, *rear;
@@ -51,7 +53,7 @@ LQueue * Init_LQueue()
     q = (LQueue*)malloc(sizeof(LQueue));    /*申请链队指针*/
     p = (QNode*)malloc(sizeof(QNode));  /*申请头尾指针结点*/
     p->next = NULL;
-    
+
     q->font = q->rear = p;
     return q;
 }

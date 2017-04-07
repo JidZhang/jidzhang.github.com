@@ -2,7 +2,7 @@
 layout: post
 title: "ubuntu remove and install Gui desktop"
 description: ""
-category: Linux
+category: ubuntu
 tags: [ubuntu]
 ---
 

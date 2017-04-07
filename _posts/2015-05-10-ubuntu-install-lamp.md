@@ -2,7 +2,7 @@
 layout: post
 title: "Ubuntu一键安装及卸载LAMP"
 description: ""
-category: Linux 
+categories: Linux ubuntu
 tags: []
 ---
 

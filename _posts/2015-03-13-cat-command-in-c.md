@@ -5,6 +5,7 @@ description: ""
 category: Code
 tags: []
 ---
+模拟实现Linux系统中的cat命令
 
 {% highlight c %}
 /*
