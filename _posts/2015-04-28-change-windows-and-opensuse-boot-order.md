@@ -2,7 +2,7 @@
 layout: post
 title: "修改openSUSE与Windows多系统启动顺序"
 description: ""
-category: Geek
+categories: Linux openSUSE
 tags: [openSUSE]
 ---
 

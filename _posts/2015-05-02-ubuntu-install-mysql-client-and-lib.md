@@ -2,7 +2,7 @@
 layout: post
 title: "Ubuntu安装MySQL客户端及程序开发包"
 description: ""
-category: Linux
+categories: Linux ubuntu
 tags: [ubuntu,MySQL]
 ---
 

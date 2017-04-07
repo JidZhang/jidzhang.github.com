@@ -2,7 +2,7 @@
 layout: post
 title: "声明模板类为友元类"
 description: ""
-category: Code
+category: cpp
 tags: [模板]
 ---
 
