@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: []
 ---
-{% include JB/setup %}
 
 下面的程序可以用来测试是大端序还是小端序：
 

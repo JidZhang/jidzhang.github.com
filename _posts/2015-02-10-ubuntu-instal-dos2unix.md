@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [ubuntu]
 ---
-{% include JB/setup %}
 
 ubuntu下默认没有安装dos2unix工具，而且也没有一个叫这个名字的工具（我在solaris里用过dos2unix，不知道为啥ubuntu没有）。   
 但是有一个替代工具——tofrodos , 下面就说一下它的安装和使用。

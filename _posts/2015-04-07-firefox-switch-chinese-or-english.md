@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [Firefox]
 ---
-{% include JB/setup %}
 
 安装Firefox的时候因为不喜欢火狐中文版自带的乱七八糟的插件，所以选择安装了英文版的。
 

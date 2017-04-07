@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: [Unix]
 ---
-{% include JB/setup %}
 
 首先介绍下鼠标操作:  
 单击左键选中一个图形(如果是两个图形交叠的话，单击左键选中其中一个图形，再单击选中另一个图形)  

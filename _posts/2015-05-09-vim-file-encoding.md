@@ -2,10 +2,9 @@
 layout: post
 title: "VIM查看文件编码、文件编码格式转换及文件名编码转换"
 description: ""
-category:Vim 
+category: Vim 
 tags: []
 ---
-{% include JB/setup %}
 
 如果你需要在Linux中操作windows下的文件，那么你可能会经常遇到文件编码转换的问题。
 

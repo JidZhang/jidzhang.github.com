@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [openSUSE]
 ---
-{% include JB/setup %}
 
 由于先安装了Windows后安装openSUSE，结果启动项首选项由windows变成了openSUSE，这一点很出乎预料。
 

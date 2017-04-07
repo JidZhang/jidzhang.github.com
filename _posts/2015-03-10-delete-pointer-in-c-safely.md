@@ -5,7 +5,6 @@ description: ""
 category: Code
 tags: [指针]
 ---
-{% include JB/setup %}
 
 代码如下：
 

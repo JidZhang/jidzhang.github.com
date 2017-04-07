@@ -5,8 +5,6 @@ description: ""
 category: Code
 tags: [prime]
 ---
-{% include JB/setup %}
-
 > 质数，又称素数，指在一个大于1的自然数中，除了1和此整数自身外，无法被其他自然数整除的数(也可定义为包含1和本身的因子等于2个)。比1大但不是素数的数称为合数。1和0既非素数也非合数。素数在数论中有着很重要的地位。(From [wikipedia](http://zh.wikipedia.org/wiki/%E7%B4%A0%E6%95%B0))
 
 下面提供判断一个整数是否是质数的简单C实现:

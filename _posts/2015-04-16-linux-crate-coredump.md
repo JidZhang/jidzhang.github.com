@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [coredump]
 ---
-{% include JB/setup %}
 
 Linux系统能否创建核心转储文件coredump，以及core文件的大小限制，是由当前的shell控制，因此要通过相关shell进行修改：
 

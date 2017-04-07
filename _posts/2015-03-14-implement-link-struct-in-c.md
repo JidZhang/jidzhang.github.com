@@ -5,7 +5,6 @@ description: ""
 category: Code
 tags: [链表]
 ---
-{% include JB/setup %}
 
 {% highlight c %}
 /*

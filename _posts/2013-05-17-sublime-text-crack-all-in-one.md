@@ -5,7 +5,6 @@ description: ""
 category: Hack
 tags: [编辑器, sublime_text, crack]
 ---
-{% include JB/setup %}
 
 ##摘要
 本篇文章介绍一种非常直接、快速地破解[Sublime Text](http://www.sublimetext.com)编辑器的方法，并且这里的方式适用于Sublime Text2/3(以下为了方便简称为ST2,ST3)的所有版本和几乎所有平台（Win32,Win64,Linux32,Linux64,除了MacOS）。下面是破解后的效果图：

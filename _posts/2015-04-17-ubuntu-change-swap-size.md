@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [ubuntu,swap]
 ---
-{% include JB/setup %}
 
 在ubuntu上修改swap分区大小按下面的步骤进行：
 

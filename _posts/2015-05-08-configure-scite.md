@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
 SciTe是一款很小巧又很强大的编辑器，非常适合程序员使用。
 
 大家了解Scite通常是因为使用AutoIt才间接知道Scite，其实，Scite的使用范围要广得多。

@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [Vim]
 ---
-{% include JB/setup %}
 
 首先，用法：
 

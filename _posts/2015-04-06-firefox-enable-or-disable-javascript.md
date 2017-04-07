@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [Firefox]
 ---
-{% include JB/setup %}
 
 升级到Firefox23.0后突然发现javascript被禁用了，浏览很多网站都出问题，而且
 

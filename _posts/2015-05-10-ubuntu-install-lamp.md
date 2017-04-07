@@ -2,10 +2,9 @@
 layout: post
 title: "Ubuntu一键安装及卸载LAMP"
 description: ""
-category:Linux 
+category: Linux 
 tags: []
 ---
-{% include JB/setup %}
 
 一键安装LAMP服务：
 

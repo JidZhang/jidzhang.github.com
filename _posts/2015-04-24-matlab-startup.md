@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: [Matlab]
 ---
-{% include JB/setup %}
 
 由于Matlab软件默认的CPU是Intel的，所以AMD处理器的用户在安装 Matlab 后初次运行会自动关闭，可采取以下方式进行解决： 
 

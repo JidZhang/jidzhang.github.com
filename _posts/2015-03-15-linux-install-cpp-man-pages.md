@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [man]
 ---
-{% include JB/setup %}
 
 本篇介绍在ubuntu上安装C++在线文档（man pages），下篇将介绍[C++在线文档的使用](../16/howto-cpp-man-pages.html)。需要注意的一点是：在这里的方法有别于通常的 man func_name，因此需要单独说明，以免安装后也不知道怎么用。
 

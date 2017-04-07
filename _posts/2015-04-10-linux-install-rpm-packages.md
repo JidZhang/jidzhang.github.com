@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [RPM]
 ---
-{% include JB/setup %}
 
 ## 安装、卸载、查看、升级rpm
 

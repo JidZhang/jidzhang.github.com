@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [TurboC]
 ---
-{% include JB/setup %}
 
 (一) Turbo C 的历史
 

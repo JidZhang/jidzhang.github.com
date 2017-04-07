@@ -5,7 +5,6 @@ description: "用Astyle格式化代码"
 category: Geek
 tags: [Astyle,Scite,Editor]
 ---
-{% include JB/setup %}
 
 在 VC6.0 里很喜欢用 Alt+F8 的功能，它能够快速格式化代码，Scite中没有这个功能。今天看它的配置文件发现这么两行:
 

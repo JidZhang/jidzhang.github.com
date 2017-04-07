@@ -5,7 +5,6 @@ description: ""
 category: Vim
 tags: []
 ---
-{% include JB/setup %}
 
 在Windows下用gvim，这个选项是默认打开的。也就是用vim打开文件时，可以记忆退出时的位置，从而再次打开就会直接跳到上次的位置。
 

@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: []
 ---
-{% include JB/setup %}
 
 这个编译错误的解决办法：
 

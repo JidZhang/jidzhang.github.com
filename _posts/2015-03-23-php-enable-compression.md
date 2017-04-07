@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [PHP]
 ---
-{% include JB/setup %}
 
 使用gzip压缩页面，可以使得页面载入的更快，这里提供一个解决办法压缩wordpress型博客，当然平台是LAMP。
 

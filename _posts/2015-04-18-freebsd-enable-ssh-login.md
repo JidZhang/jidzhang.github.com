@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [FreeBSD,SSH]
 ---
-{% include JB/setup %}
 
 （1）编辑/etc/inetd.conf, 去掉ssh前的#
 

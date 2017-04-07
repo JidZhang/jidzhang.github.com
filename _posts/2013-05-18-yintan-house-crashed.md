@@ -5,7 +5,6 @@ description: ""
 category: Life
 tags: [房子, 房地产泡沫]
 ---
-{% include JB/setup %}
 
 > 威海银滩，一个美丽的“谎言”吹起的旅游地产泡沫，正暴露在阳光下。
 

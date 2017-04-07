@@ -5,7 +5,7 @@ description: ""
 category: "Hack"
 tags: []
 ---
-{% include JB/setup %}
+
  *更新*：下面的百度云盘下载链接都失效了，最新的下载链接如下：    
 [**Dropbox: Sublime Text Build 3059**](https://www.dropbox.com/sh/n2xf7xvao1pya13/AADxxrbCekZzMU7zFV6sqng0a)
 

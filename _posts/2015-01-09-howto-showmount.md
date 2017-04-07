@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [showmount,NFS]
 ---
-{% include JB/setup %}
 
 > showmount -- show mount information for an NFS server
 

@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [ibus]
 ---
-{% include JB/setup %}
 
 最小化安装需要：
 

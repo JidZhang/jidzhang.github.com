@@ -5,8 +5,6 @@ description: "jekyll init"
 category: Geek
 tags: [intro, jekyll]
 ---
-{% include JB/setup %}
-
 
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)

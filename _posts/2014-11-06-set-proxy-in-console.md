@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [goAgent,proxy]
 ---
-{% include JB/setup %}
 
 ###前言
 在使用apt-get或git pull或wget的时候经常因为国内网络限制的原因而考虑使用代理服务器，

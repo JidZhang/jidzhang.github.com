@@ -5,7 +5,6 @@ description: ""
 category: Code
 tags: []
 ---
-{% include JB/setup %}
 
 {% highlight c %}
 /*
@@ -45,3 +44,4 @@ int main(int argc, char *argv[])
     return 0;
 }
 {% endhighlight %}
+

@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [Vim]
 ---
-{% include JB/setup %}
 
 1、支持中文编码的基础 
 

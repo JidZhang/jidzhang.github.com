@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: []
 ---
-{% include JB/setup %}
 
 touch – change file timestamps（更新时间戳）
 

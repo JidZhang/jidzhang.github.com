@@ -5,7 +5,6 @@ description: ""
 category: Code
 tags: []
 ---
-{% include JB/setup %}
 
 最大公约数：Greatest Common Divisor，简写为gcd。
 

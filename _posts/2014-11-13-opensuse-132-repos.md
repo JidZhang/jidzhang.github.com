@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [openSUSE]
 ---
-{% include JB/setup %}
 
 ###吐槽
 openSUSE的服务器不太给力，经常是十几K，要花很长时间才能下载完程序。

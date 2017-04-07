@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: []
 ---
-{% include JB/setup %}
 
 现在要关掉UNIX/Linux下的声音，尤其是在命令行下出现的嘟嘟报警声，可以用下面的命令：
 

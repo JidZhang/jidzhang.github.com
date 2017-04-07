@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 继上篇：[安装C++ man pages](../15/linux-install-cpp-man-pages.html)  后，本篇介绍怎么在C++ man pages中查询C++的函数。
 

@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [ubuntu]
 ---
-{% include JB/setup %}
 
 1. 解决ubuntu/linux打开网页慢、网速慢的问题
 

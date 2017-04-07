@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [ubuntu,MySQL]
 ---
-{% include JB/setup %}
 
 安装客户端、服务器:
 

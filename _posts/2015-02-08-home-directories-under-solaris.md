@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 Under Solaris, home directories are conventionally kept on one of two places,/homeor/export/home. The/homedirectory isunder control of the automounter and only the automounter can create directories there. The/export/homedirectory is where users home directories can be created by the system administrator.
 

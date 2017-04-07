@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [openSUSE,MySQL]
 ---
-{% include JB/setup %}
 
 在openSUSE中安装MySQL要安装下面这些组件：
 

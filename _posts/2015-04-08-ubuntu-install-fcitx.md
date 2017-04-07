@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [ubuntu]
 ---
-{% include JB/setup %}
 
 
 卸载系统已经安装的ibus

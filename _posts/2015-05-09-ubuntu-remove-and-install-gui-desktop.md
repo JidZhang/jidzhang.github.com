@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [ubuntu]
 ---
-{% include JB/setup %}
 
 # Ubuntu安装和卸载图形界面
 

@@ -5,7 +5,6 @@ description: ""
 category: Code
 tags: [map]
 ---
-{% include JB/setup %}
 
 向map中添加或更新元素通常有两个办法：map::operator[] 和 成员函数map::insert()。在数据量很小和元素比较简单的情况的情况下，通常两种方法不会有效率上的差异，但是，一旦数据量很大，或元素很复杂（自定义的比较复杂的类）时，就会出现效率上的差异。因此向map中添加元素通常有这么一个原则：
 
