@@ -5,7 +5,6 @@ description: ""
 category: Hack
 tags: [SI, source insight, crack]
 ---
-{% include JB/setup %}
 
 下面是本人用C写的source insight 3.5.x 算号器源代码，可以用VC、GCC或在线[CodePad](http://codepad.org/)进行编译尝试：
 

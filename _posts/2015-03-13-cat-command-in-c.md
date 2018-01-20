@@ -5,7 +5,7 @@ description: ""
 category: Code
 tags: []
 ---
-{% include JB/setup %}
+模拟实现Linux系统中的cat命令
 
 {% highlight c %}
 /*
@@ -45,3 +45,4 @@ int main(int argc, char *argv[])
     return 0;
 }
 {% endhighlight %}
+

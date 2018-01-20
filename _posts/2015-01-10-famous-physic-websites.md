@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [Physic]
 ---
-{% include JB/setup %}
 
 
 1. [物理学会网站](http://www.iop.org/) 物理学会(The Institute of Physics)是一个国际性的组织，主要的站点在英国。该网站提供一系列免费服务。网站将图形的数量保持在最低限度，确保能以最快的速度下载复杂资料。 HTML 的使用也已简化，可让更多使用各种不同浏览器的人得以访问物理学会网站。

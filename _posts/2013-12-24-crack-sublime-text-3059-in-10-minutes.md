@@ -5,7 +5,6 @@ description: ""
 category: "Hack"
 tags: [编辑器, sublime_text]
 ---
-{% include JB/setup %}
 
 更新
 ----

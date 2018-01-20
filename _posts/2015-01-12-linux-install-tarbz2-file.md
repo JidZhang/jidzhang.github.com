@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [tar.bz2]
 ---
-{% include JB/setup %}
 
 Linux下解压安装tar.bz2文件
 

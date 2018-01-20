@@ -5,8 +5,8 @@ description: ""
 category: Geek
 tags: []
 ---
-{% include JB/setup %}
 
+## C++ manpages -- C++在线帮助文档
 
 > C++ manul pages generater：
 >

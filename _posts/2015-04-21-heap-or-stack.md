@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: [heap,stack]
 ---
-{% include JB/setup %}
 
 一、英文名称
 

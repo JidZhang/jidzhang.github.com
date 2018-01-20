@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [StackOverflow]
 ---
-{% include JB/setup %}
 
 这里推荐两个很酷的在线编译器：
 

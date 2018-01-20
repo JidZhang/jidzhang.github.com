@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [Solaris]
 ---
-{% include JB/setup %}
 
 Locale简单说就是一组「地区语言」的资讯。它包括了
 

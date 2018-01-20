@@ -5,7 +5,6 @@ description: ""
 category: Hack
 tags: [Cpp, vector, STL, new]
 ---
-{% include JB/setup %}
 
 [原理分析]
 	

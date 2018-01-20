@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [Solaris,locale]
 ---
-{% include JB/setup %}
 
 locale 是国际化与本土化过程中的一个非常重要的概念，个人认为，对于中文用户来说，通常会涉及到的国际化或者本土化，大致包含三个方面：看中文，写中文，与 window中文系统的兼容和通信。从实际经验上看来，locale的设定与看中文关系不大，但是与写中文，及window分区的挂载方式有很密切的关系。本人认为就像一个纯英文的Windows能够浏览中文，日文或者意大利文网页一样，你不需要设定locale就可以看中文。那么，为什么要设定 locale呢？什么时候会用到locale呢？
 

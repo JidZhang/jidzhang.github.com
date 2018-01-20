@@ -5,12 +5,13 @@ description: ""
 category: Code
 tags: []
 ---
-{% include JB/setup %}
+
+## 用C实现简单循环队列结构
 
 {% highlight c %}
 /*
  * 用C实现简单循环队列结构
- * 
+ *
  * 循环队列的类型定义如下：
  * typedef struct{
  *     valuetype data[MAXSIZE];    [>数据的存储区<]

@@ -5,7 +5,8 @@ description: ""
 category: Code
 tags: []
 ---
-{% include JB/setup %}
+
+##用C语言实现简单链式队列结构
 
 {% highlight c %}
 /*
@@ -19,7 +20,7 @@ tags: []
  * {
  *     QNode *font, *rear;
  * }LQueue;    [>将头尾指针封装在一起的链队<]
- * 
+ *
  * 设q是一个指向链队的指针，即LQueue *q. 各函数的功能如下：
  * （1）LQueue * Init_LQueue(): 创建并返回一个带头尾结点的空链队
  * （2）int Empty_LQueue(LQueue *q): 判断链队是否为空
@@ -39,7 +40,7 @@ typedef struct node
 {
     valuetype data;
     struct node *next;
-}QNode;   
+}QNode;
 typedef struct
 {
     QNode *font, *rear;
@@ -52,7 +53,7 @@ LQueue * Init_LQueue()
     q = (LQueue*)malloc(sizeof(LQueue));    /*申请链队指针*/
     p = (QNode*)malloc(sizeof(QNode));  /*申请头尾指针结点*/
     p->next = NULL;
-    
+
     q->font = q->rear = p;
     return q;
 }

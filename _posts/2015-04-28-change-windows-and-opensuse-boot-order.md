@@ -2,10 +2,9 @@
 layout: post
 title: "修改openSUSE与Windows多系统启动顺序"
 description: ""
-category: Geek
+categories: Linux openSUSE
 tags: [openSUSE]
 ---
-{% include JB/setup %}
 
 由于先安装了Windows后安装openSUSE，结果启动项首选项由windows变成了openSUSE，这一点很出乎预料。
 

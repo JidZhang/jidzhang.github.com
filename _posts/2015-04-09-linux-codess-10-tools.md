@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: []
 ---
-{% include JB/setup %}
 
 
 想成为 Linux 下专业的 C/C++ 程序员，下面工具都是必须要了解的。

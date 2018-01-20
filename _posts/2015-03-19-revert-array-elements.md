@@ -5,7 +5,8 @@ description: ""
 category: Code
 tags: []
 ---
-{% include JB/setup %}
+
+## 把数组的前k位逆置
 
 {% highlight c %}
 /*
@@ -48,7 +49,7 @@ int main()
 {
     int array[] = {1,2,5,9,8,7,6,3,5,6,7,8,9,5,6,4,1,5,2,6,3,5};
     int num = sizeof(array)/sizeof(int);
-    
+
     printf("before inverted:");
     for(int i=0;i<num;++i){
         if (i%5==0)

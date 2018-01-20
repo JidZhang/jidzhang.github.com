@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 在讲述柔性数组成员之前，首先要介绍一下不完整类型（incomplete type）。不完整类型是这样一种类型，它缺乏足够的信息例如长度去描述一个完整的对象。
 

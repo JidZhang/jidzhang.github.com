@@ -5,7 +5,6 @@ description: "how to build vim"
 category: Geek
 tags: [vim]
 ---
-{% include JB/setup %}
 
 以下是我的配置和编译过程，主要是比默认的多开启了ruby,lua,python2,perl,tcl，这样做的目的是可以顺利的保证Vim插件（比如YCM和NeoComplete）的使用：
 

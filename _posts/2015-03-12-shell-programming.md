@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [shell, bash]
 ---
-{% include JB/setup %}
 
 bash命令解释套装程序包含了一些内部命令。内部命令在目录列表时是看不见的，它们由Shell本身提供。常用的内部命令有：echo, eval, exec, export, readonly, read, shift, wait和点(.)。下面简单介绍其命令格式和功能。 
 

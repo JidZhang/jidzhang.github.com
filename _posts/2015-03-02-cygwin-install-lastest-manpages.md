@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [cygwin]
 ---
-{% include JB/setup %}
 
 cygwin自身带的manpages不够全，比如 "man listen" 就没有，所以需要自己手动安装Linux的最新manpages。
 

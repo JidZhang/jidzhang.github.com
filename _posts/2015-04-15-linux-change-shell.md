@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [shell]
 ---
-{% include JB/setup %}
 
 
 可以通过一条命令更改用户的shell类型，如下：

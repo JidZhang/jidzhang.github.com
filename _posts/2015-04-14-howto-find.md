@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [find]
 ---
-{% include JB/setup %}
 
 find命令是一个无处不在命令，是Linux中最有用的命令之一。
 

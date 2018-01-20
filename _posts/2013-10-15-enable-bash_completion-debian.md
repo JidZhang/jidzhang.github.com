@@ -5,7 +5,6 @@ description: "enable bash_completion on Debian OS"
 category: Linux
 tags: [bash, Debian]
 ---
-{% include JB/setup %}
 
 真心喜欢Debian系统，系统非常稳定而且各方面的技术材料也丰富。但是有些配置还是需要自己搞定。下面是一个tips：<br/>
 	**完善bash的自动补全功能，即bash_completion** <br/>

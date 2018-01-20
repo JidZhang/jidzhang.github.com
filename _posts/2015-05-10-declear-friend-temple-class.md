@@ -2,10 +2,9 @@
 layout: post
 title: "声明模板类为友元类"
 description: ""
-category: Code
+category: cpp
 tags: [模板]
 ---
-{% include JB/setup %}
 
 如题，要将模板类（template class）声明为友元类，需要注意两点：
 

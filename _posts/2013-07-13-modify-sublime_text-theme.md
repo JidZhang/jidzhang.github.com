@@ -5,7 +5,6 @@ description: ""
 category: Hack
 tags: [sublime_text]
 ---
-{% include JB/setup %}
 
 最近发现*Solarized*主题很耐看，尤其是Dark主题喜欢得不行。所以把常用的工具的主题都设置成了*Solarized(Dark)*样式。
 

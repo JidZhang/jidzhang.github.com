@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "ubuntu 一键安装及卸载LAMP"
+title: "Ubuntu一键安装及卸载LAMP"
 description: ""
-category: 
+categories: Linux ubuntu
 tags: []
 ---
-{% include JB/setup %}
 
 一键安装LAMP服务：
 
@@ -21,7 +20,7 @@ tags: []
 
 通过上面的命令卸载Lamp时不免把Linux系统本身的东西卸载掉了，因此，
 
-在卸载LAMP后一定记着更新一下系统：
+在卸载LAMP后**一定**记着更新一下系统：
 
 	sudo apt-get update
 	sudo apt-get upgrade

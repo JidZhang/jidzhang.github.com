@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [Thunderbird]
 ---
-{% include JB/setup %}
 
 Thunderbird回复邮件的格式很不好看，而且还是把回复的内容都放在原文引用的下面，用的很不舒服。
 

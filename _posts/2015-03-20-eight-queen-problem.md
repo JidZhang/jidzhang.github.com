@@ -5,7 +5,8 @@ description: ""
 category: Code
 tags: []
 ---
-{% include JB/setup %}
+
+## 八皇后问题递归回溯算法实现
 
 {% highlight c %}
 

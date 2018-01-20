@@ -2,10 +2,9 @@
 layout: post
 title: "使用Google Analytics跟踪404页面"
 description: ""
-category: 
+category:
 tags: []
 ---
-{% include JB/setup %}
 
 404页面是当访问者输入了错误的地址或者访问了被删除的页面时，服务器返回的错误页面（404 HTTP 状态代码）。这个页面除了告诉访问者页面不存在以外，不提供任何有价值的信息。访问者可能就此离开网站。
 
@@ -14,7 +13,7 @@ tags: []
 (1) 将网站的Google Analytics追踪代码添加到404 页面里。
 
 (2) 修改404页面的Google Analytics代码，将代码修改为一下形式：
-	
+
 	<script type="text/javascript"
 	src="http://www.google-analytics.com/urchin.js">
 	</script>

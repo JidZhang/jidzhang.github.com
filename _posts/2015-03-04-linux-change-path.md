@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [Solaris,bash,csh]
 ---
-{% include JB/setup %}
 
 安装完操作系统（UNIX 或 Linux，尤其是Solaris这样的系统）后经常遇到：`command not found` 的错误提示, 原因：一是需要的程序可能没有安装（安装上就得了），二是程序不在搜索路径里。
 

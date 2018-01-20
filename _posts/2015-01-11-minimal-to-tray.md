@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [Vmware]
 ---
-{% include JB/setup %}
 
 先下载 trayconizer.zip（我下载了个for unicode的版本，才4K）。
 

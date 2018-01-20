@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [firefox]
 ---
-{% include JB/setup %}
 
 在Firefox内后退或前进最好用 Alt+方向键 或 Ctrl+[ 、Ctrl+]，这也是在Linux/MacOS上的习惯。
 

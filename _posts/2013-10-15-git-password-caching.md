@@ -5,7 +5,6 @@ description: ""
 category: Geek
 tags: [Git,Linux,Windows]
 ---
-{% include JB/setup %}
 
 每次`git pull/push`的时候都要输入用户名和密码是很痛苦的，但是可以通过修改git配置来解决这个问题，并且不难。<br/>
 

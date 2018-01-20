@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: [软件加密]
 ---
-{% include JB/setup %}
 
 使用圣天诺HASP加密的软件都会启动一个叫做Hasplms或Sentinel LDK License Manager的服务项，这个服务是软件运行所必须的。但是在软件卸载后往往这个服务还在运行，重启电脑后也还继续运行。这就非常不厚道了。
 

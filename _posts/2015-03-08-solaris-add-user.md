@@ -5,7 +5,6 @@ description: ""
 category: Linux
 tags: [Solaris]
 ---
-{% include JB/setup %}
 
 (1) mkdir
 

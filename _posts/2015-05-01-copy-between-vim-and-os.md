@@ -2,10 +2,9 @@
 layout: post
 title: "Vim与系统粘贴板之间实现复制、粘贴"
 description: ""
-category: Geek
+category: Vim
 tags: [Vim]
 ---
-{% include JB/setup %}
 
 首先，用法：
 
