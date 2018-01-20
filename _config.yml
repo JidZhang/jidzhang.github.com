@@ -14,19 +14,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 疯狂的键盘
-email: 2694056227@qq.com
+email: 545628706@qq.com
 description:  爱软件爱开发
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 img_url: "assets/images"
-twitter_username:
-github_username:
+twitter_username: linccn
+github_username: jidzhang
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

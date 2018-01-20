@@ -1,5 +1,6 @@
-_site/*
-_theme_packages/*
+_site
+_theme_packages
+.jekyll-metadata
 
 Thumbs.db
 .DS_Store
@@ -13,4 +14,4 @@ Thumbs.db
 
 *.bak
 
-.sass-cache/*
+.sass-cache
