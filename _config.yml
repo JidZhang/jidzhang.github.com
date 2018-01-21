@@ -27,18 +27,19 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-admin
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+#exclude:
+  #- Gemfile
+  #- Gemfile.lock
+  #- node_modules
+  #- vendor/bundle/
+  #- vendor/cache/
+  #- vendor/gems/
+  #- vendor/ruby/
 
 # jekyll_admin:
 #   hidden_links:
@@ -48,5 +49,5 @@ exclude:
 #     - datafiles
 #     - configuration
 
-paginate: 10
-paginate_path: "page:num"
+#paginate: 10
+#paginate_path: "page:num"
