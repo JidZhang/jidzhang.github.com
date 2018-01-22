@@ -15,3 +15,5 @@ Thumbs.db
 *.bak
 
 .sass-cache
+
+nohup.out
